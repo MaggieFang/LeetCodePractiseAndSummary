@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyLeetcodeSolution.iml" filepath="$PROJECT_DIR$/MyLeetcodeSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-note/java-note.iml" filepath="$PROJECT_DIR$/java-note/java-note.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-solution/java-solution.iml" filepath="$PROJECT_DIR$/java-solution/java-solution.iml" />
+    </modules>
+  </component>
+</project>
