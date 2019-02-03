@@ -5,11 +5,18 @@ package com.easy.math;
  * Talk is Cheap,Show me the Code.
  **/
 public class SqrtX69 {
-    public static void main(String[] args) {
-        System.out.println(mySqrt(2147395600));
-        System.out.println(mySqrtBinarySearch(2147395600));
-
+    public static int mySqrtBinarySearch(int x) {
+        if (x == 0) return 0;
+        int low = 1, high = x;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (mid <= x / mid && (mid + 1) > x / (mid + 1)) return mid;
+            if (mid > x / mid) high = mid - 1;
+            else low = mid + 1;
+        }
+        return -1;
     }
+
 
     /**
      * KEYPOINTS:
@@ -37,21 +44,6 @@ public class SqrtX69 {
         return i - 1;
     }
 
-    public static int mySqrtBinarySearch(int x) {
-        if (x == 0)
-            return 0;
-        int left = 1, right = Integer.MAX_VALUE;
-        while (true) {
-            int mid = left + (right - left) / 2;//这里也是trick的，看起来等于(left+right)/2,但不能这么弄 1+MAX_VALUE就溢出了
-//            int mid =(left+right)/2;
-            if (mid > x / mid) {
-                right = mid - 1;
-            } else {
-                if (mid + 1 > x / (mid + 1))
-                    return mid;
-                left = mid + 1;
-            }
-        }
 
-    }
+
 }
