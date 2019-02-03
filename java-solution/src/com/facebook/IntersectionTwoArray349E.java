@@ -9,47 +9,25 @@ import java.util.Iterator;
  * Talk is Cheap,Show me the Code.
  **/
 public class IntersectionTwoArray349E {
-    public int[] intersection(int[] num1, int[] num2) {
-        if (num1 == null || num2 == null || num1.length == 0 || num2.length == 0) {
-            return null;
-        }
+    public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<>();
-        if (num1.length < num2.length) {
-            for (int i : num1) {
-                set.add(i);
-            }
-        } else {
-            for (int i : num2) {
-                set.add(i);
+        HashSet<Integer> ans = new HashSet<>();
+        for (int i : nums1) {
+            set.add(i);
+        }
+
+        for (int i : nums2) {
+            if (set.contains(i)) {
+                ans.add(i);
             }
         }
 
-        HashSet<Integer> list = new HashSet<>();
-        if (num1.length < num2.length) {
-            for (int i : num2) {
-                if (set.contains(i)) {
-                    list.add(i);
-                }
-            }
-        } else {
-            for (int i : num1) {
-                if (set.contains(i)) {
-                    list.add(i);
-                }
-            }
-        }
-        int[] result = new int[list.size()];
+        int[] r = new int[ans.size()];
         int i = 0;
-        for (Integer item : list) {
-            result[i++] = item;
+        for (int n : ans) {
+            r[i++] = n;
         }
-        return result;
+        return r;
     }
 
-    public static void main(String[] args) {
-        int[] A = new int[]{1, 2, 2, 1};
-        int[] B = new int[]{2, 2};
-        IntersectionTwoArray349E test = new IntersectionTwoArray349E();
-        System.out.println(test.intersection(A, B));
-    }
 }

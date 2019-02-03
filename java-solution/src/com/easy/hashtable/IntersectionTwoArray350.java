@@ -34,32 +34,24 @@ public class IntersectionTwoArray350 {
     **/
 
     public int[] intersect(int[] nums1, int[] nums2) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int e : nums1) {
-            Integer v = map.get(e);
-            if (v == null) {
-                map.put(e, 1);
-            } else {
-                map.put(e, v + 1);
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i : nums1){
+            map.put(i,map.getOrDefault(i,0)+1);
+        }
+        ArrayList<Integer> ans = new ArrayList<>();
+        for(int i: nums2){
+            int n = map.getOrDefault(i,0);
+            n--;
+            if(n >= 0){
+                ans.add(i);
+                map.put(i,n);
             }
         }
-
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int e : nums2) {
-            Integer v = map.get(e);
-            if (v != null) {
-                list.add(e);
-                if (v == 1) {
-                    map.remove(e);
-                } else {
-                    map.put(e, v - 1);
-                }
-            }
+        int[] r = new int[ans.size()];
+        int i = 0;
+        for(int n : ans){
+            r[i++] = n;
         }
-        int[] result = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
-        }
-        return result;
+        return r;
     }
 }

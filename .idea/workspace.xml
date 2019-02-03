@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/google/CourseScheduleII210M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/google/CourseScheduleII210M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/IntersectionTwoLinks160.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/IntersectionTwoLinks160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/Interval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/oscar/CoffeeCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/oscar/CoffeeCombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/META-INF/java-solution.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/doordash/SortRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/doordash/SortRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/easy/hashtable/IntersectionTwoArray350.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/easy/hashtable/IntersectionTwoArray350.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/easy/linkedlist/IntersectionTwoLinks160.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/easy/linkedlist/IntersectionTwoLinks160.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/IntersectionTwoArray349E.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/IntersectionTwoArray349E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MergeInterval56M$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MergeInterval56M$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MergeInterval56M.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MergeInterval56M.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/mianjing/fb/MeetingRoomMutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/mianjing/fb/MeetingRoomMutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/mianjing/google/InsertInterval57H.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/mianjing/google/InsertInterval57H.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/mianjing/google/Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/oscar/CoffeeCombination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/oscar/CoffeeCombination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/sort/MeetingRooms252E$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/sort/MeetingRooms252E$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/sort/MeetingRooms252E$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/sort/MeetingRooms252E.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/sort/MeetingRooms252E.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,89 +45,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/CountingSort.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="411">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/QuickSort.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="1004" column="31" selection-start-line="1004" selection-start-column="31" selection-end-line="1004" selection-end-column="31" />
-              <folding>
-                <element signature="e#24329#24330#0" expanded="true" />
-                <element signature="e#24394#24395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CourseSchedule207.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/CourseScheduleII210M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/BuyandSellStockOneTransaction121E.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/BSStockTimeManyTransaction122E.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="430">
+              <caret line="49" selection-start-line="49" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/StockSummary.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-466">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+              <folding>
+                <element signature="e#1892#1893#0" expanded="true" />
+                <element signature="e#1950#1951#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/IndexInCompleteTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -107,10 +115,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -128,6 +157,7 @@
     <findStrings>
       <find>Heuristic</find>
       <find>dfs</find>
+      <find>Interval</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,11 +186,21 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePathsII63M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/CourseScheduleII210M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/IntersectionTwoLinks160.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
+    <option name="x" value="-58" />
     <option name="y" value="26" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
@@ -213,14 +253,6 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="doordash" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mianjing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,23 +262,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mianjing" type="462c0819:PsiDirectoryNode" />
-              <item name="fb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oscar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,11 +273,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549161485630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549220240736" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -368,7 +384,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="26" width="1680" height="962" extended-state="0" />
+    <frame x="-58" y="26" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26707318" />
@@ -380,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23650976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23650976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3846154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,75 +467,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/WordSearch79M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/StringToInteger8M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/BoundaryOfBinaryTree545M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/backtracking/Subset78M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/notes/tree.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/BST.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/src/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Caculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/BattleshipsinaBoard419M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/FloodFill733E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-note/src/recursion/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -667,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePath62M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -706,13 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -765,16 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/BuyandSellStockOneTransaction121E.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -791,8 +714,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/StockSummary.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/IntersectionTwoLinks160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="49" selection-start-line="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/IndexInCompleteTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,7 @@
 package com.facebook;
 
+import com.basicStructure.Interval;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -10,20 +12,6 @@ import java.util.PriorityQueue;
  * Talk is Cheap,Show me the Code.
  **/
 public class MeetingRoom253M {
-    public static class Interval {
-        int start;
-        int end;
-
-        public Interval() {
-            start = 0;
-            end = 0;
-        }
-
-       public Interval(int s, int e) {
-            start = s;
-            end = e;
-        }
-    }
 
     /**
      * KEYPOINTS:
@@ -136,24 +124,6 @@ public class MeetingRoom253M {
             s++;
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        // [[1,5],[8,9],[8,9]]
-        //[[6,15],[13,20],[6,17]]
-        //[1,9][1,10],[9,11][10,11]
-        Interval[] t = new Interval[4];
-        Interval i1 = new Interval(1, 9);
-        Interval i2 = new Interval(1, 11);
-        Interval i3 = new Interval(10, 15);
-        Interval i4 = new Interval(18, 19);
-        t[0] = i1;
-        t[1] = i2;
-        t[2] = i3;
-        t[3] = i4;
-
-
-        System.out.println(new MeetingRoom253M().minMeetingRoomsMinHeap(t));
     }
 
 }

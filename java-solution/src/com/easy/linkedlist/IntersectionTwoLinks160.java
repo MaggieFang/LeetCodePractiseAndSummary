@@ -7,40 +7,41 @@ import java.util.HashSet;
  * Talk is Cheap,Show me the Code.
  **/
 public class IntersectionTwoLinks160 {
-    /**
-     * KEYPOINTS:
-     * <p>
-     *  Use an set to put one link.
-     *  traverse the second one to judge if the element is in the set
-     * </p>
-     * PSEUDOCODE:
-     * <pre>
-     *  <code>
-     *
-     * </code>
-     * </pre>
-     * TIME COMPLEXITY: O(n)
-     * <p>
-     * SPACE COMPLEXITY:O(n)
-     * <p>
-    **/
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        HashSet<ListNode> set = new HashSet<>();
-        ListNode nodeA = headA;
-        while(nodeA != null){
-            set.add(nodeA);
-            nodeA = nodeA.next;
+        int c1 = 0;
+        int c2 = 0;
+        ListNode n1 = headA;
+        ListNode n2 = headB;
+        while(n1 != null){
+            c1++;
+            n1 = n1.next;
         }
 
-        ListNode nodeB = headB;
-        while(nodeB != null){
-            if(set.contains(nodeB)){
-                return nodeB;
+        while(n2 != null){
+            c2++;
+            n2 = n2.next;
+        }
+
+        n1 = headA;
+        n2 = headB;
+        if(c1 > c2){
+            int c  = c1 - c2;
+            while(c > 0){
+                n1 = n1.next;
+                c--;
             }
-            nodeB = nodeB.next;
+        }else if (c1 < c2){
+            int c = c2 - c1;
+            while(c > 0){
+                n2 = n2.next;
+                c--;
+            }
         }
-        return null;
-
+        while(n1 != null && n1!= n2){
+            n1 = n1.next;
+            n2 = n2.next;
+        }
+        return n1;
     }
     /**
      * KEYPOINTS:
@@ -62,9 +63,9 @@ public class IntersectionTwoLinks160 {
      * <p>
      * SPACE COMPLEXITY:O(1)
      * <p>
-    **/
+     **/
 
-    public ListNode getIntersectionNodeTwoPointer(ListNode headA, ListNode headB) {
+    public ListNode getIntersectionNodeTwoPointer3(ListNode headA, ListNode headB) {
         if(headA == null || headB == null){
             return null;
         }
@@ -82,4 +83,41 @@ public class IntersectionTwoLinks160 {
             pB = pB != null ? pB.next : headA;
         }
     }
+
+    /**
+     * KEYPOINTS:
+     * <p>
+     *  Use an set to put one link.
+     *  traverse the second one to judge if the element is in the set
+     * </p>
+     * PSEUDOCODE:
+     * <pre>
+     *  <code>
+     *
+     * </code>
+     * </pre>
+     * TIME COMPLEXITY: O(n)
+     * <p>
+     * SPACE COMPLEXITY:O(n)
+     * <p>
+    **/
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        HashSet<ListNode> set = new HashSet<>();
+        ListNode nodeA = headA;
+        while(nodeA != null){
+            set.add(nodeA);
+            nodeA = nodeA.next;
+        }
+
+        ListNode nodeB = headB;
+        while(nodeB != null){
+            if(set.contains(nodeB)){
+                return nodeB;
+            }
+            nodeB = nodeB.next;
+        }
+        return null;
+
+    }
+
 }

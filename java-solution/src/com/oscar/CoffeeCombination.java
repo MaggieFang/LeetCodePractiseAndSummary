@@ -1,8 +1,5 @@
 package com.oscar;
 
-import com.mianjing.google.Interval;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**

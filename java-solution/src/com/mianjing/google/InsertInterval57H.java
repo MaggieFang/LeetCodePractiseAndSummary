@@ -1,5 +1,7 @@
 package com.mianjing.google;
 
+import com.basicStructure.Interval;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

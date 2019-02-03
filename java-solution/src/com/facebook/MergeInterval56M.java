@@ -1,6 +1,6 @@
 package com.facebook;
 
-import com.mianjing.google.Interval;
+import com.basicStructure.Interval;
 
 import java.util.ArrayList;
 import java.util.Collections;
