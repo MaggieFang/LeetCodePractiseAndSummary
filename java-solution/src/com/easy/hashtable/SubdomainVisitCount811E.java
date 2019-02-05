@@ -1,4 +1,4 @@
-package com.intuit;
+package com.easy.hashtable;
 
 import java.util.ArrayList;
 import java.util.HashMap;
