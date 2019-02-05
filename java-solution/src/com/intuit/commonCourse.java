@@ -23,6 +23,7 @@ public class commonCourse {
        for(String[] s : info){
           totalInfo.addItem(s[0],s[1]);
        }
+
        List<CommonInfo> ans = new ArrayList<>();
       for(int i = 0; i < totalInfo.ids.size();i++){
           for(int j = i+1;j < totalInfo.ids.size();j++){
