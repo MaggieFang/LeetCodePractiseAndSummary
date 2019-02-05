@@ -11,8 +11,12 @@ public class commonCourse {
      * input : {{"58", "A"},  {"94", "B"},  {"17", "A"},  {"58", "B"},  {"17", "B"},  {"58", "C"}}
      * output  :[58, 94]: [B]
      *         [58, 17]: [A, B]
-     *         [94, 17]: []
+     *         [94, 17]: [B]
      */
+    public static void main(String[] args){
+        commonCourse t = new commonCourse();
+        t.getCommon(new String[][]{{"58", "A"},  {"94", "B"},  {"17", "A"},  {"58", "B"},  {"17", "B"},  {"58", "C"}});
+    }
 
     public List<CommonInfo> getCommon(String[][] info){
        CourseInfo totalInfo = new CourseInfo();
