@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/doordash/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/intuit/SubdomainVisitCount811E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/ConnectFour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/doordash/Connected4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/doordash/Connected4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/doordash/Connected4.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/array/Connected4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/java-solution/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,35 +29,16 @@
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
-              <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Transaction.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/Connected4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2223">
-              <caret line="117" column="69" selection-start-line="117" selection-start-column="69" selection-end-line="117" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Connected4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2353#2354#0" expanded="true" />
-                <element signature="e#2394#2395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -106,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Gradle Kotlin DSL Settings" />
       </list>
     </option>
   </component>
@@ -218,6 +195,14 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="doordash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -270,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Connected4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doordash.Connected4" />
+    <configuration name="ConnectedCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.ConnectedCheck" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doordash.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,7 +293,7 @@
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doordash.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,7 +306,7 @@
         <item itemvalue="Application.Transaction" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SubdomainVisitCount811E" />
-        <item itemvalue="Application.Connected4" />
+        <item itemvalue="Application.ConnectedCheck" />
         <item itemvalue="Application.ConnectFour" />
       </list>
     </recent_temporary>
@@ -341,9 +326,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="23" width="1680" height="962" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18353659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18353659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30080366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30080366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4293915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,13 +395,13 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-solution/src/com/doordash/Connected4.java</url>
+          <url>file://$PROJECT_DIR$/java-solution/src/com/array/Connected4.java</url>
           <line>101</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-solution/src/com/doordash/Connected4.java</url>
+          <url>file://$PROJECT_DIR$/java-solution/src/com/array/Connected4.java</url>
           <line>87</line>
           <properties />
           <option name="timeStamp" value="12" />
@@ -641,13 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/Interval.java" />
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/IndexInCompleteTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -687,21 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/ConnectFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#5025#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3461#3462#0" expanded="true" />
-            <element signature="e#3505#3506#0" expanded="true" />
-            <element signature="e#3535#3536#0" expanded="true" />
-            <element signature="e#3600#3601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/ConnectFour.java" />
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePathsII63M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -818,7 +782,7 @@
     <entry file="file://$PROJECT_DIR$/java-solution/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -828,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
-          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -846,19 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Connected4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2353#2354#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2223">
@@ -867,6 +818,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/Connected4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>

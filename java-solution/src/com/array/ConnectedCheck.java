@@ -1,4 +1,4 @@
-package com.doordash;
+package com.array;
 
 import java.util.Scanner;
 
@@ -6,14 +6,14 @@ import java.util.Scanner;
  * Author by Maggie Fang. Email maggie2fang@gmail.com. Date on 2019-02-04
  * Talk is Cheap,Show me the Code.
  **/
-public class Connected4 {
+public class ConnectedCheck {
     static final int ROW = 7;
     static final int COL = 7;
     int count;
     int[][] panel;
 
     public static void main(String[] args) {
-        Connected4 test = new Connected4();
+        ConnectedCheck test = new ConnectedCheck();
         Scanner scanner = new Scanner(System.in);
         outer:
         while (true){
@@ -60,7 +60,7 @@ public class Connected4 {
 
     }
 
-    public Connected4() {
+    public ConnectedCheck() {
         panel = new int[ROW][COL];
         count = 0;
     }
