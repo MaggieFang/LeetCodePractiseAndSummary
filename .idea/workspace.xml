@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeWithCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/intuit/commonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mock/commonCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/facebook/MeetingRoom253M.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-solution/com/google/BasicCalculator224H.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-solution/com/google/BasicCalculator224H.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,37 +18,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#2627#2628#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeWithCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="182">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -98,7 +79,6 @@
         <option value="$PROJECT_DIR$/java-note/src/com/test/MyHashMap.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/FindAnagramMappings760E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/SquaresofSortedArray977E.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/math/SqrtX69.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePathsII63M.java" />
@@ -135,14 +115,16 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mock/commonCourse.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeWithCount.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="23" />
+    <option name="x" value="26" />
+    <option name="y" value="366" />
     <option name="width" value="1680" />
-    <option name="height" value="962" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +147,43 @@
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -181,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549489016272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549491263323" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -208,9 +226,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SnapShotTableMap">
-    <configuration name="SnapShotTableMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.google.SnapShotTableMap" />
+  <component name="RunManager" selected="Application.DecodeWithCount">
+    <configuration name="DecodeWithCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianjing.google.DecodeWithCount" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
@@ -222,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubdomainVisitCount811E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.SubdomainVisitCount811E" />
+    <configuration name="SnapShotTableMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianjing.google.SnapShotTableMap" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.mianjing.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecodeWithCount" />
         <item itemvalue="Application.SnapShotTableMap" />
         <item itemvalue="Application.commonCourse" />
         <item itemvalue="Application.Transaction" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SubdomainVisitCount811E" />
       </list>
     </recent_temporary>
   </component>
@@ -292,10 +310,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1680" height="962" extended-state="0" />
+    <frame x="27" y="201" width="1680" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26585367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26585367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +322,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30080366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3838384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.17680827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,13 +352,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java</url>
-          <line>30</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java</url>
-          <line>34</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -399,20 +417,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="49" selection-start-line="49" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -741,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -755,10 +752,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="393">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
@@ -773,10 +777,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeWithCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>

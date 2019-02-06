@@ -12,8 +12,7 @@ public class ExpressiveWords809M {
      * KEYPOINTS:
      *  find the key of S and the count of each character.
      *  e.g. "abbcccddddaaaaa", "key" is "abcda", and the "count" [1,2,3,4,5].
-     *  and for each query in the words.
-     *  we similarily find the "key" and count
+     *  and for each query in the words. we similarily find the "key" and count
      *  if key not the same, skip.
      *   assume c1 = S.count[i] and c2 = query.count[i]
      *   if c2 > c1,we need to delete char in query, so skip
