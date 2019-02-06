@@ -2,7 +2,6 @@ package com.facebook;
 
 import com.basicStructure.Interval;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -43,13 +42,8 @@ public class MeetingRoom253M {
         if (intervals == null || intervals.length == 0) {
             return 0;
         }
-        Arrays.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval o1, Interval o2) {
-                return o1.start - o2.start;
-            }
-        });
-// 跟下面一样 ，默认就是最小堆
+        Arrays.sort(intervals, (o1, o2) -> o1.start - o2.start);
+// ，默认就是最小堆
 //        PriorityQueue<Integer> minHeap = new PriorityQueue<>(intervals.length, new Comparator<Integer>() {
 //            @Override
 //            public int compare(Integer o1, Integer o2) {

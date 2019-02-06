@@ -12,7 +12,6 @@ public class BasicCalculator224H {
         int n = s.length();
 
         int sign = 1;
-        int ans = 0;
         int result = 0;
         for (int i = 0; i < n; i++) {
             char c = s.charAt(i);
