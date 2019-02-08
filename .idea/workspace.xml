@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="334">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -81,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/amazon/SwapNodeInPairs24M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/coinbase/Flatten2Dto1D.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/FloodFill733E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Weather.java" />
@@ -132,6 +140,7 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/VowelCombind.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PeakNumber.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" />
       </list>
     </option>
   </component>
@@ -211,7 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549652678865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549653422564" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -499,13 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -821,8 +823,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="334">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>

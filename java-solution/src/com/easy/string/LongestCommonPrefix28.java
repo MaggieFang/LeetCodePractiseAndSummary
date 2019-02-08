@@ -5,15 +5,37 @@ package com.easy.string;
  * Talk is Cheap,Show me the Code.
  **/
 public class LongestCommonPrefix28 {
-    public static void main(String[] args) {
-        //["a"]
-        char c = 0;
-        System.out.println(c);
-        String[] s = new String[]{
-                "flower", "flow", "flight"
-        };
+    //二刷，simple idea,define a method to find the pre of two string,so find it use str[0]and str[1] to be the new string name ans,
+    // and make a traversal from str[2] with asn
+    //O(n) n is the total character of all strings
+    public String longestCommonPrefix(String[] strs) {
+        if(strs == null || strs.length == 0){
+            return "";
+        }
+        if(strs.length == 1){
+            return strs[0];
+        }
+        String ans = commonPre(strs[0],strs[1]);
+        int i = 2;
+        while(i < strs.length && !"".equals(ans)){
+            ans = commonPre(ans,strs[i++]);
+        }
+        return ans;
+    }
 
-//        System.out.println(longestCommonPrefix(s));
+    public String commonPre(String s1,String s2){
+        int i = 0;
+        int j = 0;
+        StringBuilder sb = new StringBuilder();
+        while(i < s1.length() && j < s2.length()){
+            if(s1.charAt(i) == s2.charAt(j++)){
+                sb.append(s1.charAt(i));
+                i++;
+            }else{
+                break;
+            }
+        }
+        return sb.length() == 0? "":sb.toString();
     }
 
     /**
