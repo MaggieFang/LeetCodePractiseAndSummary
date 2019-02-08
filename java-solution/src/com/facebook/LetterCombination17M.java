@@ -8,6 +8,33 @@ import java.util.List;
  * Talk is Cheap,Show me the Code.
  **/
 public class LetterCombination17M {
+    //二刷
+    String[] map = new String[]{"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    public List<String> letterCombinations2(String digits) {
+        List<String> ans = new ArrayList<>();
+        if(digits == null || digits.length() == 0){
+            return ans;
+        }
+
+        combind(digits,0,"",ans);
+        return ans;
+    }
+
+    public void combind(String digit,int cur,String pre,List<String> ans){
+        if(digit.length() == pre.length()){
+            ans.add(pre);
+            return;
+        }
+        if(cur < digit.length()){
+            String str = map[digit.charAt(cur) - '0'];
+            for(int i = 0; i < str.length(); i++){
+                combind(digit,cur+1,pre+str.charAt(i),ans);
+            }
+        }
+
+    }
+
+    //一刷
     public List<String> letterCombinations(String digits) {
         String[] map = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         int total = 1;
@@ -38,10 +65,5 @@ public class LetterCombination17M {
         }
         return list;
 
-    }
-
-    public static void main(String[] args) {
-        LetterCombination17M t = new LetterCombination17M();
-        System.out.println(t.letterCombinations("23"));
     }
 }
