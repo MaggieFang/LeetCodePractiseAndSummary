@@ -1,7 +1,6 @@
 package com.mianjing.fb;
 
 import com.basicStructure.Interval;
-import com.facebook.MeetingRoom253M;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

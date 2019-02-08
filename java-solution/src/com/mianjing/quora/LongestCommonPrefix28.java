@@ -1,4 +1,4 @@
-package com.easy.string;
+package com.mianjing.quora;
 
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 9/22/18

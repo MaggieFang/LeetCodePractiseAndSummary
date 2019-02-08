@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +58,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-564">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="475">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3152#3153#0" expanded="true" />
+                <element signature="e#3210#3211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/coinbase/Flatten2Dto1D.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/FloodFill733E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Weather.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Entry.java" />
@@ -129,7 +143,6 @@
         <option value="$PROJECT_DIR$/java-note/notes/Collection.md" />
         <option value="$PROJECT_DIR$/java-solution/src/com/intuit/commonCourse.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/intuit/MeetingInsert.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mock/commonCourse.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java" />
@@ -141,6 +154,8 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PeakNumber.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" />
       </list>
     </option>
   </component>
@@ -205,7 +220,33 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+              <item name="quora" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +261,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549653422564" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549655203858" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -642,16 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mock/GenerationRelation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -828,10 +859,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java">
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="475">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3152#3153#0" expanded="true" />
+            <element signature="e#3210#3211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

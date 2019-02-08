@@ -1,8 +1,9 @@
-package com.facebook;
+package com.mianjing.quora;
 
 import com.basicStructure.Interval;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -11,7 +12,8 @@ import java.util.PriorityQueue;
  * Talk is Cheap,Show me the Code.
  **/
 public class MeetingRoom253M {
-
+    //二刷出现的一个问题，开始认为位置最小的end用一个变量就够，但考虑 [2,15],[4,9],[9,25],[16,23],[36,45],当到第三个时候，他跟第二个共享一个教室，
+    // 走到第四个时候，他其实可以跟[2,15]共享一个，但15这个end被我们丢了找不回来，所以还是需要引入一个pq来维持最小end
     /**
      * KEYPOINTS:
      * <p>
