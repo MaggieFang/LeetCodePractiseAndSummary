@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,50 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/oscar/StockSummary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="129" column="21" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="21" />
-              <folding>
-                <element signature="method#maxProfitCase1One#0;class#StockSummary#0" />
-                <element signature="method#maxProfitCase2Infinite#0;class#StockSummary#0" />
-                <element signature="method#maxProfitCase3AtMost2#0;class#StockSummary#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/google/VowelCombind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding>
-                <element signature="e#942#943#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PeakNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +56,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
+            <state relative-caret-position="1520">
               <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-note/src/com/test/BFSvsDFSforBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-note/src/com/test/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,9 +129,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Heuristic</find>
-      <find>dfs</find>
       <find>Interval</find>
       <find>out</find>
+      <find>dfs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-note/src/com/test/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/google/FindAnagramMappings760E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/SquaresofSortedArray977E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/math/SqrtX69.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java" />
@@ -195,6 +189,8 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Test.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java" />
       </list>
     </option>
   </component>
@@ -292,6 +288,24 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+              <item name="fb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+              <item name="quora" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,7 +321,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549679343279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549744811093" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -334,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeDecodeTree297M">
+  <component name="RunManager" selected="Application.PathSumII113M">
     <configuration name="CodeDecodeTree297M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mianjing.fb.CodeDecodeTree297M" />
       <module name="java-solution" />
@@ -348,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDuplicateChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.google.DeleteDuplicateChar" />
+    <configuration name="PathSumII113M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.PathSumII113M" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mianjing.google.*" />
+          <option name="PATTERN" value="com.mianjing.quora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSumII113M" />
         <item itemvalue="Application.CodeDecodeTree297M" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SubsetSum" />
         <item itemvalue="Application.PeakNumber" />
-        <item itemvalue="Application.DeleteDuplicateChar" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +435,7 @@
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26890245" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14695121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +445,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20665902" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17680827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32261768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -512,6 +526,12 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -525,37 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePathWithK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/dp/UniquePath62M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/SpiralMatrixII59M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/SpiralMatrix54M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/math/SqrtX69.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -919,8 +908,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
+        <state relative-caret-position="1520">
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/BFSvsDFSforBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
