@@ -39,6 +39,7 @@ public class SubsetSum {
     //we return c[sum][n],
     //base case c[0][j] = true, c[i][0] = false;//sum not 0 but set is empty
     // c[i][j]= c[i][j-1] || c[i-set[j-1]][j-1]
+    //O(sum*n).
     public boolean isSubsetSum(int[] set,int sum){
         boolean[][] C = new boolean[sum+1][set.length+1];
         for(int i = 0; i <= set.length;i++){

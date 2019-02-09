@@ -77,4 +77,15 @@ public class CodeDecodeTree297M {
         node.right = deserialize(queue);
         return node;
     }
+
+    public static void main(String[] args){
+        TreeNode root= new TreeNode(1);
+        root.left = new TreeNode(2);
+        TreeNode r = root.right = new TreeNode(3);
+        r.left = new TreeNode(4);
+        r.right = new TreeNode(5);
+        CodeDecodeTree297M t = new CodeDecodeTree297M();
+        System.out.println(t.serialize(root));
+
+    }
 }
