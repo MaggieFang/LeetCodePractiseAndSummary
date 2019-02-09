@@ -5,6 +5,35 @@ package com.mianjing.fb;
  * Talk is Cheap,Show me the Code.
  **/
 public class PartitionEqualSubset416M {
+    // 二刷,先求sum,然后sum/2就是要找的target,就跟SubsetSum.java一样的问题了
+    public boolean canPartition2(int[] nums) {
+        int sum = 0;
+        for(int i : nums){
+            sum+=i;
+        }
+        if(sum % 2 == 1) return false;
+        sum = sum/2;
+        boolean[][] C = new boolean[sum+1][nums.length+1];
+        for(int i = 0; i <= nums.length; i++){
+            C[0][i] = true;
+        }
+
+        for(int i = 1; i <= sum; i++){
+            C[i][0] = false;
+        }
+
+        for(int i = 1; i <= sum; i++){
+            for(int j = 1; j <= nums.length;j++){
+                if(i - nums[j-1]>=0){
+                    C[i][j] = C[i][j-1] || C[i-nums[j-1]][j-1];
+                }else{
+                    C[i][j] = C[i][j-1];
+                }
+            }
+        }
+        return C[sum][nums.length];
+
+    }
     /**
      * KEYPOINTS:
      * <p>
