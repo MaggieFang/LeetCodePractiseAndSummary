@@ -7,17 +7,16 @@ package com.mianjing.quora;
 public class HouseRobberIICycle213M {
     /**
      * Clarification:
-     *  LC 198的进阶，但依旧是DP，并且关系不变,但这道题第一个跟最后一个相连，那么rob[n-1]就要考虑下了。
-     *  1,如果最后一个一定不包含，则rob1[n-1]取rob1[n-2],而求rob1[0]~rob1[n-2]跟 198完全一样.
-     *  2,如果第一个一定不包含，那么后面随便，rob2[1]~rob2[n-1]跟198完全一样.
-     *  最后结果就是max(rob2[n-1],rob1[n-2]);
-     *
      * </p>
      * Keypoints:
-     *
+     * *  LC 198的进阶，但依旧是DP，并且关系不变,但这道题第一个跟最后一个相连，那么rob[n-1]就要考虑下了。
+     * *  1,如果最后一个一定不包含，则rob1[n-1]取rob1[n-2],而求rob1[0]~rob1[n-2]跟 198完全一样.
+     * *  2,如果第一个一定不包含，那么后面随便，rob2[1]~rob2[n-1]跟198完全一样.
+     * *  最后结果就是max(rob2[n-1],rob1[n-2]);
+     * *
      * </p>
-     * TIME COMPLEXITY:
-     * SPACE COMPLEXITY:
+     * TIME COMPLEXITY:  O(n)
+     * SPACE COMPLEXITY: O(n)
      * </p>
      **/
     public int rob(int[] nums) {
