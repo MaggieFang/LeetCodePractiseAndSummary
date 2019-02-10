@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/HouseRobberIICycle213M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/HouseRobberIICycle213M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MaxSumNumberNotContinuos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/HouseRobberIICycle213M.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -40,20 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MaxSumNumberNotContinuos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-note/src/com/test/BFSvsDFSforBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="186">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/google/CourseScheduleII210M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/IntersectionTwoLinks160.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java" />
@@ -190,6 +184,7 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/CodeDecodeTree297M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/easy/dp/HouseRobber198.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/HouseRobberIICycle213M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MaxSumNumberNotContinuos.java" />
       </list>
     </option>
   </component>
@@ -311,7 +306,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549768849117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549775574426" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -338,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PathSumII113M">
+  <component name="RunManager" selected="Application.MaxSumNumberNotContinuos">
     <configuration name="CodeDecodeTree297M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.CodeDecodeTree297M" />
       <module name="java-solution" />
@@ -352,8 +347,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSumII113M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.PathSumII113M" />
+    <configuration name="MaxSumNumberNotContinuos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.MaxSumNumberNotContinuos" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
@@ -365,8 +360,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeakNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.PeakNumber" />
+    <configuration name="PathSumII113M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianjing.quora.PathSumII113M" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
@@ -400,11 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSumNumberNotContinuos" />
         <item itemvalue="Application.PathSumII113M" />
         <item itemvalue="Application.CodeDecodeTree297M" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SubsetSum" />
-        <item itemvalue="Application.PeakNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +420,7 @@
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20792682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20792682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,12 +429,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09758898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23995407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32261768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295063" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
@@ -535,20 +530,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/ConnectedCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7771">
-          <caret line="447" selection-start-line="447" selection-end-line="447" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27322">
@@ -940,6 +921,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MaxSumNumberNotContinuos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
