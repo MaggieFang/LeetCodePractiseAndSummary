@@ -68,10 +68,4 @@ public class MaxSumNumberNotContinuos {
          System.out.println(t.max(A));
          System.out.println(t.max(B));
      }
-
-     class Info{
-         int key;
-         int sum;
-
-     }
 }
