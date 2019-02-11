@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/DecodeWays91M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/DecodeWays91M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/AtoB.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/AtoB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/BuildTreeGivenChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/BuildTreeGivenChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/CopyConcatenate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/CopyConcatenate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/CountCompleteTreeNodes222M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/CountCompleteTreeNodes222M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeString394M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DecodeString394M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DecodeWithCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DecodeWithCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DeleteDuplicateChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteDuplicateChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/DistinctSubsequences115H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DistinctSubsequences115H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/ExclusiveTimeofFunctions636M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ExclusiveTimeofFunctions636M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/FindAndReplaceinString833M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/FindAndReplaceinString833M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/GuessNumberHigherorLower374E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/GuessNumberHigherorLower374E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/GuessNumberHigherorLowerII375M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/GuessNumberHigherorLowerII375M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/IndexInCompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/IndexInCompleteTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/InsertInterval57H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/LongestCharNoRepeat3.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/LongestCharNoRepeat3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/LongestConsecutiveSequence128H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/LongestConsecutiveSequence128H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/LongestIncreasingPathinaMatrix329H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/LongestIncreasingPathinaMatrix329H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/LongestIncreasingSub674E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/LongestIncreasingSub674E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/LongestIncreasingSubSeq300M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/LongestIncreasingSubSeq300M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/MedianTwoSortedArray4.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/MedianTwoSortedArray4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/MedianofTwoSortedArraysSameSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/MedianofTwoSortedArraysSameSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/Mine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/Mine1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/Mine2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/Mine2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/MissingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/MissingValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/PairXYNear.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PairXYNear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/PeopleBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PeopleBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/PrintMatrixAntiSpiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PrintMatrixAntiSpiral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/PrintMatrixSpiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PrintMatrixSpiral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/PrintMatrixZigzag.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PrintMatrixZigzag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/ProductOfPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ProductOfPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/RandomPickIndex398M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/RandomPickIndex398M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/RandomPickwithWeight528M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/RandomPickwithWeight528M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/RangeModule715H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/RangeModule715H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/RemoveDuplicatesfromSortedList82M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/RemoveDuplicatesfromSortedList82M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/RemoveDuplicatesfromSortedList83E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/RemoveDuplicatesfromSortedList83E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SkipMDeleteN.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/SkipMDeleteN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SnapShotTableMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/SnapShotTableMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/SplitArrayLargestSum410H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/SplitArrayLargestSum410H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/TopKFrequentElements347M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/TopKFrequentElements347M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/TreeSimilar.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/TreeSimilar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/TwitchWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/TwitchWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/VowelCombind.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/VowelCombind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/WaysToFormStrByRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/WaysToFormStrByRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/ZigzagIterator281M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ZigzagIterator281M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/ZigzagTree103M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ZigzagTree103M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/google/printAllLeavesOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/printAllLeavesOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/CodeDecodeTree297M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/CodeDecodeTree297M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/HouseRobberIICycle213M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/HouseRobberIICycle213M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/LongestCommonPrefix28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MaxSumNumberNotContinuos.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MaxSumNumberNotContinuos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MeetingRoom253M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MeetingRoom253M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PathSum112E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumII113M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PathSumII113M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSumIII437E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PathSumIII437E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PeakNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PeakNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PrintFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PrintFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/SubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="437">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,10 +65,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/readme.txt">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="158">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <element signature="docComment;method#subarraySumSlide#0;class#SubArraySumK560M#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/easy/hashtable/IntersectionTwoArray350.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" />
@@ -244,6 +184,7 @@
         <option value="$PROJECT_DIR$/java-solution/src/Test.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PrintFormat.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/readme.txt" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" />
       </list>
     </option>
   </component>
@@ -332,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549902866448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549908088031" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -446,7 +387,7 @@
     <frame x="40" y="23" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14085366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,13 +497,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/Caculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2299">
@@ -914,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/AddRemoveRandom380.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -949,6 +873,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="docComment;method#subarraySumSlide#0;class#SubArraySumK560M#0" />
+          </folding>
         </state>
       </provider>
     </entry>

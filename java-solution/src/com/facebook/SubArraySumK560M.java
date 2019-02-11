@@ -1,31 +1,73 @@
 package com.facebook;
 
+import java.util.HashMap;
+
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 10/8/18
  * Talk is Cheap,Show me the Code.
  **/
 public class SubArraySumK560M {
-    // Memory limit exceed;
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     * An efficient solution is while traversing the array, store sum so far in currsum. Also maintain count of values of currsum in a map. (之前也可能出现这个和值)
+     * If value of currsum is equal to desired sum at any instance increment count of subarrays by one.
+     * curSum is the sum currently,  assume sum[i],sum[j], and if sum[i] - sum[j] == k,then it means the elements between j~i can build the result,too.
+     * so for the curSum,we can check whether (curSum - k) has exist in the map. if yes, get (curSum-k) 's value, cnt, it means there are cnt cases before
+     * can build the sum k with curSum. so add it.
+     * </p>
+     * TIME COMPLEXITY: O(n)
+     * SPACE COMPLEXITY: O(n)
+     * </p>
+     **/
     public int subarraySum(int[] nums, int k) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
         int result = 0;
-        int n = nums.length;
-        int[][] T = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            if (nums[i] == k) {
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int curSum = 0;
+        for (int cur : nums) {
+            curSum += cur;
+            if (curSum == k) {
                 result++;
             }
-            T[i][i] = nums[i];
-        }
 
-        for (int i = 0; i <= n - 2; i++) {
-            for (int j = i + 1; j <= n - 1; j++) {
-                T[i][j] = T[i][j - 1] + nums[j];
-                if (T[i][j] == k) {
-                    result++;
+            if (map.containsKey(curSum - k)) {
+                result += map.get(curSum - k);
+            }
+
+            map.put(curSum, map.getOrDefault(curSum, 0) + 1);
+        }
+        return result;
+    }
+
+    // we can use fix start, and move on different end to caculate the sum;
+    //e.g    100, 1,2,3
+    // for  start = 0 to n-1 ;
+    //    then end move from start to n -1;
+    //    so we can calculate s[start], s[start,start+1],s[start,start+1,start+2]...
+    // O(n^2) , Spacke O(1)
+    public int subarraySumFixStartVaryEnd(int[] nums, int k) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int reslut = 0;
+
+        for (int start = 0; start < nums.length; start++) {
+            int sum = 0;
+            for (int end = start; end < nums.length; end++) {
+                sum += nums[end];
+                if (sum == k) {
+                    reslut++;
                 }
             }
         }
-        return result;
+        return reslut;
+
     }
 
     /**
@@ -93,32 +135,7 @@ public class SubArraySumK560M {
         return result;
     }
 
-    // we can use fix start, and move on different end to caculate the sum;
-    //e.g    100, 1,2,3
-    // for  start = 0 to n-1 ;
-    //    then end move from start to n -1;
-    //    so we can calculate s[start], s[start,start+1],s[start,start+1,start+2]...
-    public int subarraySumFixStartVaryEnd(int[] nums, int k) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        int reslut = 0;
-
-        for(int start = 0 ; start < nums.length; start++){
-            int sum = 0;
-            for(int end = start; end< nums.length; end++){
-                sum+=nums[end];
-                if(sum == k){
-                    reslut++;
-                }
-            }
-        }
-        return reslut;
-
-    }
-
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         SubArraySumK560M test = new SubArraySumK560M();
         int[] A = new int[]{1, 1, 1};
         int[] B = new int[]{1, 2, 1, 2, 1};
