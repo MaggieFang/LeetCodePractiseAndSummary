@@ -1,7 +1,5 @@
 package com.facebook;
 
-import com.mianjing.google.DecodeString394M;
-
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 10/4/18
  * Talk is Cheap,Show me the Code.
