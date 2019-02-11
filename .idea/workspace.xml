@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="" />
+    <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/basicStructure/DoubleLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteNodeInDoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,39 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CloneGraph133M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding>
-                <element signature="docComment;method#subarraySumSlide#0;class#SubArraySumK560M#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,11 +69,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ContainsDuplicateII219E.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteNodeInDoubleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/basicStructure/DoubleLinkedListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/doordash/BatchDelivery.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/SpiralMatrix54M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/google/SpiralMatrixII59M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Connect.java" />
@@ -189,6 +190,9 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/google/ContainsDuplicateII219E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/basicStructure/DoubleLinkedListNode.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteNodeInDoubleLinkedList.java" />
       </list>
     </option>
   </component>
@@ -253,7 +257,7 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="basicStructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549910694332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549911935625" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -406,6 +410,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1680" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27012196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,34 +522,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DecodeWithCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteDuplicateChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/TreeOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/src/TreeAndGraph/LowestCommonAncestorBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/BasicCalculator224H.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -902,6 +879,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ContainsDuplicateII219E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/easy/linkedlist/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/basicStructure/DoubleLinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DeleteNodeInDoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
