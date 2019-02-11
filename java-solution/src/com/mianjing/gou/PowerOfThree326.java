@@ -1,4 +1,4 @@
-package com.easy.math;
+package com.mianjing.gou;
 
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 9/21/18
@@ -10,7 +10,7 @@ public class PowerOfThree326 {
         // 1162261467 is 3^19,  3^20 is bigger than int
         return ( n>0 &&  1162261467%n==0);
     }
-
+   // O(log_b(N)) here b is 3.
     public boolean isPowerOfThree(int n) {
         if(n == 0){
             return false;

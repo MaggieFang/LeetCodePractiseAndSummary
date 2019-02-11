@@ -17,6 +17,7 @@ public class SubArraySumK560M {
      * curSum is the sum currently,  assume sum[i],sum[j], and if sum[i] - sum[j] == k,then it means the elements between j~i can build the result,too.
      * so for the curSum,we can check whether (curSum - k) has exist in the map. if yes, get (curSum-k) 's value, cnt, it means there are cnt cases before
      * can build the sum k with curSum. so add it.
+     * 谷歌题目是让输出，那么map的value可以换成用List,存放该sum出现的index
      * </p>
      * TIME COMPLEXITY: O(n)
      * SPACE COMPLEXITY: O(n)

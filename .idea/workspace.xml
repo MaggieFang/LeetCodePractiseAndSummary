@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/math/PowerOfThree326.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,15 +36,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SortRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -64,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="177">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="docComment;method#subarraySumSlide#0;class#SubArraySumK560M#0" />
               </folding>
@@ -77,28 +60,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/AddRemoveRandom380.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="475">
+              <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/BattleshipsinaBoard419M.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar!/sun/nio/cs/ext/IBM277.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
+            <state relative-caret-position="95">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/intuit/MeetingInsert.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/FindCelebrity277M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="349">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="29" selection-start-line="10" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/basicStructure/Interval.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/sort/MeetingRooms252E.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/google/InsertInterval57H.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/MeetingRoomMutation.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/IntervalListIntersections986M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/doordash/BatchDelivery.java" />
@@ -185,6 +191,10 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PrintFormat.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/readme.txt" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/easy/math/PowerOfThree326.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java" />
       </list>
     </option>
   </component>
@@ -249,7 +259,41 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mianjing" type="462c0819:PsiDirectoryNode" />
+              <item name="gou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -273,7 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549908088031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549909854976" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -387,7 +431,7 @@
     <frame x="40" y="23" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14085366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27012196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,70 +541,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mock/commonCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/scalyr/DateConvertOA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="487" column="11" selection-start-line="487" selection-start-column="11" selection-end-line="487" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/SnapShotTableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/DecodeWithCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -888,11 +872,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="177">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="docComment;method#subarraySumSlide#0;class#SubArraySumK560M#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PrintSubArraySumTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ExpressiveWords809M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar!/sun/nio/cs/ext/IBM277.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/FindCelebrity277M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
