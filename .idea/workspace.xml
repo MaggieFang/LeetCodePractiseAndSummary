@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/easy/math/PowerOfThree326.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" afterDir="false" />
-    </list>
+    <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/doordash/SqrtWithPrecison.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CloneGraph133M.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/ContainsDuplicateII219E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -259,24 +253,7 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549909854976" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549910694332" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -429,7 +406,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1680" height="962" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27012196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -924,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
