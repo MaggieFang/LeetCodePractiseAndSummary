@@ -34,8 +34,8 @@ public class MaxSumNumberNotContinuos {
      **/
 
      public int max(int[] num){
-         Arrays.sort(num);
-         HashMap<Integer,Integer> map = new HashMap<>();
+        // Arrays.sort(num);
+         TreeMap<Integer,Integer> map = new TreeMap<>();
          for(int n: num){
              map.put(n,map.getOrDefault(n,0)+n);
          }
@@ -63,7 +63,7 @@ public class MaxSumNumberNotContinuos {
      }
      public static void main(String[] args){
          MaxSumNumberNotContinuos t = new MaxSumNumberNotContinuos();
-         int[] A = {1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4};
+         int[] A = {1,  2, 1,2, 2,4, 3, 3,  4, 4, 4};
          int[] B = {1,1,1,1,2,2,2,2, 3,4,4,5,5,5};
          System.out.println(t.max(A));
          System.out.println(t.max(B));
