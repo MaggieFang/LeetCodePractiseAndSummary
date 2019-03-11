@@ -9,6 +9,30 @@ import java.util.List;
  **/
 public class ZigzagIterator281M {
 
+    public class ZigzagIterator2 {
+
+        Iterator<Integer> i, j, tmp;
+        public ZigzagIterator2(List<Integer> v1, List<Integer> v2) {
+            this.i = v2.iterator();
+            this.j = v1.iterator();
+        }
+
+        public int next() {
+            if (j.hasNext()) {
+                tmp = i;
+                i = j;
+                j = tmp;
+            }
+            return i.next();
+
+        }
+
+        public boolean hasNext() {
+            return i.hasNext() || j.hasNext();
+        }
+    }
+
+
     public class ZigzagIterator {
         List<Integer> v1;
         List<Integer> v2;
@@ -44,27 +68,5 @@ public class ZigzagIterator281M {
         }
     }
 
-    public class ZigzagIterator2 {
 
-        Iterator<Integer> i, j, tmp;
-
-        public ZigzagIterator2(List<Integer> v1, List<Integer> v2) {
-            this.i = v2.iterator();
-            this.j = v1.iterator();
-        }
-
-        public int next() {
-            if (j.hasNext()) {
-                tmp = i;
-                i = j;
-                j = tmp;
-            }
-            return i.next();
-
-        }
-
-        public boolean hasNext() {
-            return i.hasNext() || j.hasNext();
-        }
-    }
 }

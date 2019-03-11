@@ -21,7 +21,6 @@ public class MovingAveragefromDataStream346E {
             maxSize = size;
             this.queue = new LinkedList<>();
             sum = 0.0;
-
         }
 
         public double next(int val) {

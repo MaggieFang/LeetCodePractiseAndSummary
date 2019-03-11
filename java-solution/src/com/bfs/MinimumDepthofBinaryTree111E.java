@@ -11,6 +11,7 @@ import javafx.util.Pair;
  * Talk is Cheap,Show me the Code.
  **/
 public class MinimumDepthofBinaryTree111E {
+    // O(n), visited each node once. Space O(n),
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;

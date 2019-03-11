@@ -17,8 +17,6 @@ public class BuildPostOfficeII573Lint {
     //从空地出发，memory limit了，说明0的比较多，所以我们可以尝试从房子出发
     public int shortestDistanceMemoryLimite(int[][] grid) {
         // write your code here
-
-
         if (grid == null || grid.length == 0 | grid[0].length == 0) {
             return -1;
         }
