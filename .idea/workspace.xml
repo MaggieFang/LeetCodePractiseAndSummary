@@ -2,16 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/ExamRoom855MSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/TimeBasedKeyValueStore981MSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/bfs/BuildPostOfficeII573Lint.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/bfs/BuildPostOfficeII573Lint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/bfs/MinimumDepthofBinaryTree111E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/bfs/MinimumDepthofBinaryTree111E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/bfs/WallsandGates286M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/bfs/WallsandGates286M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/google/MovingAveragefromDataStream346E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/google/MovingAveragefromDataStream346E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/AddRemoveRandom380.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/AddRemoveRandom380.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ZigzagIterator281M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/ZigzagIterator281M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/AccountMerge721M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/AccountMerge721M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/AddAndSearchWord211M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/AddAndSearchWord211M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/AddTwoNum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/AddTwoNum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/BinaryTreeVerticalOrderTravel314M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/BinaryTreeVerticalOrderTravel314M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ContainMostWater11.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ContainMostWater11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ContinousSubSum523M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ContinousSubSum523M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/DecodeWays91M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/DecodeWays91M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/DiameterOfTree543.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/DiameterOfTree543.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/DivideTwoInt29M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/DivideTwoInt29M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/FaceBook Problem Index.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/FaceBook Problem Index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/FindCelebrity277M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/FindCelebrity277M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/FirstBadVersion278E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/FirstBadVersion278E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/FlattenBT2LinkedList114.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/FlattenBT2LinkedList114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/GraphBipartite785M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/GraphBipartite785M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/IntersectionTwoArray349E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/IntersectionTwoArray349E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/LRUCache146H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/LRUCache146H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/LRUCache146HLinkedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/LRUCache146HLinkedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/LetterCombination17M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/LongestPalindromicSubString5.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/LongestPalindromicSubString5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MergeInterval56M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/MergeInterval56M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/MergeKSortedList23H.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/MergeKSortedList23H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/NextPermutation31M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/NextPermutation31M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/NumberIsland200.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/NumberIsland200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/PalindromeNum9.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/PalindromeNum9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ProductExpectSelf238M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ProductExpectSelf238M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/RangeSumQuery303E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/RangeSumQuery303E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/RangeSumQuery303ESolution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/RangeSumQuery303ESolution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/RangeSumQuery304M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/RangeSumQuery304M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/RangeSumQuery304MSolution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/RangeSumQuery304MSolution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ReorderList143M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ReorderList143M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ReverseInt7.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ReverseInt7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/SortedLinkedList2BST109M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/SortedLinkedList2BST109M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/SubArraySumK560M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/SubArraySumK560M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/TaskSchedule621M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/TaskSchedule621M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ThreeSum15M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ThreeSum15M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ValidBST98M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ValidBST98M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/ValidPalindromeII680E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/ValidPalindromeII680E.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/facebook/findAllAnagram438E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/fb/findAllAnagram438E.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/TimeBasedKeyValueStore981MSite.java">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MaxSumNumberNotContinuos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="140">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,10 +74,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/TimeBasedKeyValueStore981MSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MeetingRoom253M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1093">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="1349">
+              <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -72,6 +123,7 @@
       <find>exclude</find>
       <find>include</find>
       <find>Iterator</find>
+      <find>Prio</find>
     </findStrings>
     <replaceStrings>
       <replace>dropLast</replace>
@@ -84,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/LetterCombination17M.java" />
-        <option value="$PROJECT_DIR$/java-solution/src/com/easy/string/LongestCommonPrefix28.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/LongestCommonPrefix28.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MeetingRoom253M.java" />
@@ -135,10 +185,12 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/google/MovingAveragefromDataStream346E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/Test.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/ExamRoom855MSite.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MeetingRoom253M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
@@ -149,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -161,17 +212,6 @@
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="java-note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyLeetcodeSolution" type="462c0819:PsiDirectoryNode" />
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,7 +233,7 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intuit" type="462c0819:PsiDirectoryNode" />
+              <item name="fb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +258,7 @@
               <item name="java-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="unionfind" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyLeetcodeSolution" type="b2602c69:ProjectViewProjectNode" />
@@ -229,10 +269,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551139765606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553532104194" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -259,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.VerifyinganAlienDictionary953E">
     <configuration name="BuildListDifference2Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mianjing.gou.BuildListDifference2Power" />
       <module name="java-solution" />
@@ -299,19 +340,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumNumberNotContinuos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.kuola.MaxSumNumberNotContinuos" />
-      <module name="java-solution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mianjing.kuola.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="java-solution" />
@@ -319,13 +347,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyinganAlienDictionary953E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fb.VerifyinganAlienDictionary953E" />
+      <module name="java-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerifyinganAlienDictionary953E" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FindFrequencyNumInSortedArray" />
         <item itemvalue="Application.EvenIterator" />
         <item itemvalue="Application.BuildListDifference2Power" />
-        <item itemvalue="Application.MaxSumNumberNotContinuos" />
       </list>
     </recent_temporary>
   </component>
@@ -343,10 +384,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="962" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="958" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3042683" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32987806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +397,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.56371987" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.09070034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7428243" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1810842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -443,6 +484,12 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -463,13 +510,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CourseSchedule207.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/BattleshipsinaBoard419M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -764,16 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MaxSumNumberNotContinuos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/PathSum112E.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -781,7 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/facebook/ValidBST98M.java">
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/ValidBST98M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
@@ -833,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/TimeBasedKeyValueStore981MSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -842,8 +872,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MeetingRoom253M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1093">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="1349">
+          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/mianjing/kuola/MaxSumNumberNotContinuos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
