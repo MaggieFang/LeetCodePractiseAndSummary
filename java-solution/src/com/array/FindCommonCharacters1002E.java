@@ -19,7 +19,7 @@ public class FindCommonCharacters1002E {
      * there are 26 lower letter. so we can check each letter(from 'a' to 'z') appear on each word.
      * and update the min count of the letter among the strings
      * </p>
-     * TIME COMPLEXITY:  O(26*C) C is the total contnet of the strings 
+     * TIME COMPLEXITY:  O(26*C) C is the total contnet of the strings
      * SPACE COMPLEXITY: O(c)
      * </p>
      **/

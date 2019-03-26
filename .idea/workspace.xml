@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,14 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/facebook/MeetingRoom253M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/MeetingRoom253M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/PartitionEqualSubset416M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" />
@@ -173,11 +182,12 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java" />
         <option value="$PROJECT_DIR$/java-note/src/com/test/Test.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-104" />
+    <option name="x" value="52" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="958" />
@@ -268,7 +278,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553618046967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553625032718" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -295,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindCommonCharacters1002E">
+  <component name="RunManager" selected="Application.ShortestUnsortedContinuousSubarray581">
     <configuration name="FindCommonCharacters1002E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.array.FindCommonCharacters1002E" />
       <module name="java-solution" />
@@ -309,12 +319,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFrequencyNumInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianjing.gou.FindFrequencyNumInSortedArray" />
+    <configuration name="ShortestUnsortedContinuousSubarray581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.ShortestUnsortedContinuousSubarray581" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mianjing.gou.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestUnsortedContinuousSubarray581" />
         <item itemvalue="Application.FindCommonCharacters1002E" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.VerifyinganAlienDictionary953E" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.FindFrequencyNumInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-104" y="23" width="1680" height="958" extended-state="0" />
+    <frame x="52" y="23" width="1680" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3335366" />
@@ -392,7 +402,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.56371987" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29296425" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.034602076" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.061130334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -497,6 +507,18 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -542,13 +564,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/BinaryTreeMaximumPathSum124H.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/MinimumDepthofBinaryTree111E.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-211">
@@ -921,10 +936,17 @@
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -985,7 +1007,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
