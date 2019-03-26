@@ -25,10 +25,7 @@ public class NumberofMatchingSubsequences792M {
         // build the dict of S,but since maybe duplicate,cannot use int[26], need a map<Char,List>
         HashMap<Character, ArrayList<Integer>> map = new HashMap<>();
         for (int i = 0; i < S.length(); i++) {
-            char c = S.charAt(i);
-            ArrayList<Integer> list = map.getOrDefault(c, new ArrayList<>());
-            list.add(i);
-            map.put(c, list);
+            map.computeIfAbsent(S.charAt(i),v -> new ArrayList<>()).add(i);
         }
 
         //check each word whether in dict,but need to keep the order. so use idx to store the index of S that have matched.
