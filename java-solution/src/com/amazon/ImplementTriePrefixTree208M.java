@@ -10,7 +10,6 @@ public class ImplementTriePrefixTree208M {
         private TrieNode[] children = new TrieNode[SIZE];
         private boolean endOfWord;
         public TrieNode() {
-
         }
     }
 
@@ -28,8 +27,9 @@ public class ImplementTriePrefixTree208M {
                 int idx = word.charAt(level) - 'a';
                 if (tmp.children[idx] == null) {
                     tmp.children[idx] = new TrieNode();
+                    // break; don't break,you are insert.you need to insert it into the chain
                 }
-                tmp = tmp.children[idx];
+                tmp = tmp.children[idx]; // not else,.you need to insert it into the chain
             }
             tmp.endOfWord = true;
         }

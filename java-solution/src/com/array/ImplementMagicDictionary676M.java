@@ -18,7 +18,7 @@ public class ImplementMagicDictionary676M {
      * when search, check the length of the search word and just retrive the v of the same length
      * </p>
      * TIME COMPLEXITY: O(N) to buildDict, N is the cnt of dict.and O(NK) to search at worst case, K is the length of search word
-     * SPACE COMPLEXITY: O(N) 
+     * SPACE COMPLEXITY: O(N)
      * </p>
      **/
     static class MagicDictionary {
