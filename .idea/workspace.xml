@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/array/NumberofMatchingSubsequences792M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/array/NumberofMatchingSubsequences792M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/array/ImplementMagicDictionary676M.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +18,32 @@
         <entry file="file://$PROJECT_DIR$/java-note/src/com/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/NumberofMatchingSubsequences792M.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
               <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/ImplementMagicDictionary676M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/PartitionEqualSubset416M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/SubsetSum.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/fb/CodeDecodeTree297M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/quora/PathSum112E.java" />
@@ -125,8 +139,9 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/fb/VerifyinganAlienDictionary953E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/array/FindCommonCharacters1002E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/array/ShortestUnsortedContinuousSubarray581.java" />
-        <option value="$PROJECT_DIR$/java-note/src/com/test/Test.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/array/NumberofMatchingSubsequences792M.java" />
+        <option value="$PROJECT_DIR$/java-note/src/com/test/Test.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/array/ImplementMagicDictionary676M.java" />
       </list>
     </option>
   </component>
@@ -222,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553639460988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553645085344" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -249,9 +264,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortestUnsortedContinuousSubarray581">
+  <component name="RunManager" selected="Application.ImplementMagicDictionary676M">
     <configuration name="FindCommonCharacters1002E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.array.FindCommonCharacters1002E" />
+      <module name="java-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementMagicDictionary676M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.ImplementMagicDictionary676M" />
       <module name="java-solution" />
       <extension name="coverage">
         <pattern>
@@ -289,13 +317,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="java-solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VerifyinganAlienDictionary953E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fb.VerifyinganAlienDictionary953E" />
       <module name="java-solution" />
@@ -311,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImplementMagicDictionary676M" />
         <item itemvalue="Application.ShortestUnsortedContinuousSubarray581" />
         <item itemvalue="Application.FindCommonCharacters1002E" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.VerifyinganAlienDictionary953E" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +357,7 @@
     <frame x="52" y="23" width="1680" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26463413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26463413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,8 +366,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.56371987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29296425" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.061130334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29296425" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21914648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -508,13 +529,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/BuildPostOfficeII573Lint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/bfs/WallsandGates286M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -877,19 +891,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/NumberofMatchingSubsequences792M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-note/src/com/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/array/ImplementMagicDictionary676M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
