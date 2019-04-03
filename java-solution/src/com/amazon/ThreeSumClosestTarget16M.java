@@ -10,8 +10,8 @@ public class ThreeSumClosestTarget16M {
     /**
      * KEYPOINTS:
      * <p>
-     *    similar to Q15, the brute force need O(n^3)
-     *    but sort first and use low and high point to make O(n^2);
+     * similar to Q15, the brute force need O(n^3)
+     * but sort first and use low and high point to make O(n^2);
      * </p>
      * PSEUDOCODE:
      * <pre>
@@ -23,32 +23,29 @@ public class ThreeSumClosestTarget16M {
      * <p>
      * SPACE COMPLEXITY:
      * <p>
-    **/
+     **/
     public int threeSumClosest(int[] nums, int target) {
-        if (nums == null || nums.length < 3) {
-            return 0;
-        }
-        int sum = 0;
-        int dif = Integer.MAX_VALUE;
+        int ans = 0;
         Arrays.sort(nums);
+        int priorAbs = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length - 2; i++) {
-            int low = i + 1;
-            int high = nums.length - 1;
-            while (low < high) {
-                int tmp = nums[i] + nums[low] + nums[high];
-                if (Math.abs(tmp - target) < dif) {
-                    sum = tmp;
-                    dif = Math.abs(tmp - target);
+            if (i != 0 && nums[i] == nums[i - 1]) continue;
+            //  int sum = target - nums[i];
+            int left = i + 1, right = nums.length - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                int abs = Math.abs(sum - target);
+                if (priorAbs > abs) {
+                    ans = sum;
+                    priorAbs = abs;
                 }
-                if (tmp == target) {
-                    return sum;
-                } else if (tmp < target) {
-                    low++;
-                } else {
-                    high--;
-                }
+                if (sum == target) return ans;
+                else if (sum < target) left++;
+                else right--;
+
             }
         }
-        return sum;
+        return ans;
+
     }
 }
