@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa95b20-405d-456e-ac34-3f6ea2da48e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-solution/src/com/twopointer/ThreeSumSmaller259M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-solution/src/com/twopointer/FourSum18M.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-solution/src/com/amazon/ThreeSumClosestTarget16M.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-solution/src/com/amazon/ThreeSumClosestTarget16M.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,17 +35,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/ThreeSum15M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="110" />
+            <state relative-caret-position="384">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-solution/src/com/twopointer/FourSum18M.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/ThreeSumClosestTarget16M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -74,15 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-solution/src/com/string/ReverseWordsinaStringII186M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -143,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-solution/src/com/easy/math/PowerOfThree326.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/mianjing/gou/PowerOfThree326.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofTwo231E.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/PowerofFour342E.java" />
@@ -194,6 +195,7 @@
         <option value="$PROJECT_DIR$/java-solution/src/com/twopointer/SubarrayProductLessThanK713M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/twopointer/ThreeSumSmaller259M.java" />
         <option value="$PROJECT_DIR$/java-solution/src/com/amazon/ThreeSumClosestTarget16M.java" />
+        <option value="$PROJECT_DIR$/java-solution/src/com/twopointer/FourSum18M.java" />
       </list>
     </option>
   </component>
@@ -266,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554255909761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554257178031" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -602,13 +604,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/google/MovingAveragefromDataStream346E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/unionfind/SentenceSimilarityII737M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -965,13 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/ThreeSum15M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/twopointer/ThreeSumSmaller259M.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -988,8 +976,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-solution/src/com/amazon/ThreeSumClosestTarget16M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/fb/ThreeSum15M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-solution/src/com/twopointer/FourSum18M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
