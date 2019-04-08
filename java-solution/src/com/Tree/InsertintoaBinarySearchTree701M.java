@@ -12,7 +12,7 @@ public class InsertintoaBinarySearchTree701M {
      *
      * </p>
      * Keypoints:
-     * 
+     *
      * </p>
      * TIME COMPLEXITY:
      * SPACE COMPLEXITY:
