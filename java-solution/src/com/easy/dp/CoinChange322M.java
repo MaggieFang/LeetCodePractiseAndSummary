@@ -7,6 +7,20 @@ import java.util.Arrays;
  * Talk is Cheap,Show me the Code.
  **/
 public class CoinChange322M {
+    public int coinChange2Lee(int[] coins, int n) {
+        int[] memo = new int[n+1];
+        Arrays.fill(memo,Integer.MAX_VALUE);
+        memo[0] = 0;
+        for(int i = 1; i <= n; i++){
+            for(int c:coins){
+                if(i - c >= 0 && memo[i-c] != Integer.MAX_VALUE){
+                    memo[i] = Math.min(memo[i],1+memo[i-c]);
+                }
+            }
+        }
+        return memo[n] == Integer.MAX_VALUE? -1: memo[n];
+    }
+
     /**
      * KEYPOINTS:
      * <p>
