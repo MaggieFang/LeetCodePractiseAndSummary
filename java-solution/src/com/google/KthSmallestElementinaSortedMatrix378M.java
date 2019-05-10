@@ -14,9 +14,10 @@ public class KthSmallestElementinaSortedMatrix378M {
      * Keypoints:
      *  same idea with SuperUglyNumber313M. But there are some more tricks here. 1) to store the first row first.
      *  and when pop the smallest one, the next one to add is the next row with the same column.
+     *  Why it can do this? because it is sorted both in row and column
      *   another reminder. the Info should implementa the Comparable interface for PriorityQueue
-     * TIME COMPLEXITY:
-     * SPACE COMPLEXITY:
+     * TIME COMPLEXITY:  O(kNlogN) init is O(n) and each pop and push is O(nlogn)
+     * SPACE COMPLEXITY: O(n)
      * </p>
      **/
     public int kthSmallest(int[][] matrix, int k) {
