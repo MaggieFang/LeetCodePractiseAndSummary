@@ -1,5 +1,7 @@
 package com.amazon;
 
+import java.util.HashSet;
+
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-06-02
  **/
@@ -27,7 +29,6 @@ public class NextGreaterElementIII556M {
         while (j >= i && a[j] <= a[i]) j--;
         swap(i, j, a);
         reverse(a, i + 1);
-
         try {
             return Integer.parseInt(new String(a)); // maybe out of range.
         } catch (Exception ew) {
