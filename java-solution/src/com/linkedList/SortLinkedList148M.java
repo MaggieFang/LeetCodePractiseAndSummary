@@ -1,4 +1,4 @@
-package com.twopointer;
+package com.linkedList;
 
 import com.basic.ListNode;
 /**
