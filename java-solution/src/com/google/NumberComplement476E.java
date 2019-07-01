@@ -12,7 +12,7 @@ public class NumberComplement476E {
      * XOR: i ^ 1 will flip the value of i, i.e 1 will be 0 and 0 will be 1
      * power 2^n : can use 1 << n
      * </p>
-     * TIME COMPLEXITY: 
+     * TIME COMPLEXITY:
      * SPACE COMPLEXITY:
      * </p>
      **/
