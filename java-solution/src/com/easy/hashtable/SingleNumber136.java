@@ -53,6 +53,9 @@ public class SingleNumber136 {
     /**
      * KEYPOINTS:
      * <p>
+     *
+     *     since  x XOR 0 = x and x XOR x = 0
+     *     so x XOR x XOR y = 0 XOR y = y
      *     Remember the MissingNumber268,we can use A^B^B = A
      * <p>
      * </p>

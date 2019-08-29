@@ -8,43 +8,42 @@ public class DistinctSubsequences115H {
     /**
      * KEYPOINTS:
      * <p>
-     * we will build an array mem where mem[i+1][j+1] means the number of ways S[0..j] contains T[0..i]
-     * the result will be mem[T.length()][S.length()].
-     * for M[i+1][j+1]:
-     * if S[j] != T[i] we ignore S[j] so M[i+1][j+1] = M[i+1][j]
-     * if S[j] == T[i] case 1, we mathc S[j] with T[i], so M[i+1][j+1] = M[i][j]; case 2,we ignore S[j]
-     * so the total M[i+1][j+1] = M[i][j]+  M[i+1][j];
+     * when come into string matching problem.  most of them are solved by dp. when involved in two string, it always should be a two-dimensional array
+     * we make dp[i][j] means the numbers that S[0, i-1] are matched with T[0, j-1];
+     * for initial status, if T is empty, then always one way to match a empty string so T[i][0] = 1; and if S is empty then T[0][i] = 0;
+     * for convert function.
+     * if S[i- 1] == T[j - 1] , dp[i][j] = dp[i-1][j-1] + dp[i-1][j], first part means we match s[i-1] with t[j-1]
+     * the second part means the ways that we can match T[0,j-1] without s[i-1] included.
+     * if S[i -1] != T[j- 1], then dp[i][j] = dp[i-1][j]
      * </p>
-     * TIME COMPLEXITY:
+     * TIME COMPLEXITY: O(n*m)
      * <p>
-     * SPACE COMPLEXITY:
+     * SPACE COMPLEXITY: O(n*m)
      * <p>
      **/
     public int numDistinct(String s, String t) {
-        int n = s.length();
-        int m = t.length();
-        if (n == 0) {
-            return 0;
-        }
-        if (m == 0) {
-            return 1;
+        int slen = s.length();
+        int tlen = t.length();
+        int[][] dp = new int[slen + 1][tlen + 1];
+        for(int i = 0; i <=slen; i++){
+            dp[i][0] = 1;
         }
 
-        int[][] M = new int[m + 1][n + 1];// M[i+1][j+1]: means the number of ways S[0...j] contains T[0..i];
-
-        for (int i = 0; i <= n; i++) {
-            M[0][i] = 1;
+        for(int i = 0; i <= tlen; i++){
+            dp[0][i] = 0;
         }
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (s.charAt(j) != t.charAt(i)) {
-                    M[i + 1][j + 1] = M[i + 1][j];
-                } else {
-                    M[i + 1][j + 1] = M[i][j] + M[i + 1][j];
+        dp[0][0] =1;
+        for(int i = 1; i <= slen; i++){
+            for(int j = 1; j <= tlen; j++){
+                if(s.charAt(i-1) == t.charAt(j-1)){
+                    dp[i][j] = dp[i-1][j-1] + dp[i-1][j];
+                }else{
+                    dp[i][j] = dp[i- 1][j];
                 }
+
             }
         }
-        return M[m][n];
+        return dp[slen][tlen];
+
     }
 }

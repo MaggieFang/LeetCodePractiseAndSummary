@@ -19,8 +19,7 @@ public class AddRemoveRandom380 {
      * if I use a map and the value store the index.But when I remove one of them. I need to re compute their value.so I cannot achieve O(1)
      *
      * maybe use a map + arrayList. map is the val -> index. the arrayList is the actual number.
-     * when remove. if it is not the last index.e.g index i, we and set the vaule of list[i] with list[list.size()-1] and remove the last element of it.
-     *
+     * when remove. if it is not the last index.e.g index i, we can move the last index element to this deleted position and delete the last one
      * </p>
      * TIME COMPLEXITY:
      * SPACE COMPLEXITY:

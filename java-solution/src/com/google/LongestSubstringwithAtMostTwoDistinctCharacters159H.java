@@ -7,27 +7,36 @@ import java.util.HashMap;
  * Talk is Cheap,Show me the Code.
  **/
 public class LongestSubstringwithAtMostTwoDistinctCharacters159H {
-
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     * "aabc": at first, I think i just need a set.and store the left index that from left to current, there are only 2 distinct char.
+     * Once we meet a third one, we move our left to keep there are two distinct char. But e.g abaccc, when I meet c, what I erase is b not a.and move the left to 2
+     * so set is not enough, I need a map to store the lastest index of char.
+     * And once more than 2 distinct char, I move the left index, to see lastest index of it. if the lastest index == left. then it is the element to delete.
+     * </p>
+     * TIME COMPLEXITY: O(n)
+     * SPACE COMPLEXITY:O(n)
+     * </p>
+     **/
     public int lengthOfLongestSubstringTwoDistinct(String s) {
+        int left = 0;
+        int result = 0;
+        int length = s.length();
         HashMap<Character, Integer> map = new HashMap<>();
-        int n = s.length();
-        if (n == 0) return 0;
-        int i = 0;
-        int max = 0;
-        int j = 0;
-        while (i < n && j < n) {
-            map.put(s.charAt(j), map.getOrDefault(s.charAt(j), 0) + 1);
+        for (int i = 0; i < length; i++) {
+            map.put(s.charAt(i), i);
             while (map.size() > 2) {
-                map.put(s.charAt(i), map.get(s.charAt(i)) - 1);
-                if (map.get(s.charAt(i)) == 0) {
-                    map.remove(s.charAt(i));
+                if (map.get(s.charAt(left)) == left) { // good! if the lastest index == left, it is the element to remove.
+                    map.remove(s.charAt(left));
                 }
-                i++;
+                left++;
             }
-            j++;
-            max = Math.max(max, j - i);
+            result = Math.max(result, i - left + 1);
         }
-        return max;
 
+        return result;
     }
 }
