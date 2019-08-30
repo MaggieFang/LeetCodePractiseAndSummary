@@ -1,6 +1,6 @@
 package com.amazon;
 
-import java.util.HashSet;
+import java.util.*;
 
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 11/28/18
@@ -18,9 +18,9 @@ public class NumberDistinctIslands694M {
      *
      * </code>
      * </pre>
-     * TIME COMPLEXITY:
+     * TIME COMPLEXITY: O(R*C)
      * <p>
-     * SPACE COMPLEXITY:
+     * SPACE COMPLEXITY: O(R*C)
      * <p>
      **/
     public int numDistinctIslands(int[][] grid) {
@@ -53,6 +53,29 @@ public class NumberDistinctIslands694M {
         dfs(grid, i + 1, j, 'r', shape);
         dfs(grid, i, j - 1, 'u', shape);
         dfs(grid, i, j + 1, 'd', shape);
-        shape.append('b'); //!!! back
+        shape.append('b'); //!!! back.otherwise {{1,1,0},{0,1,1},{1,1,1},{0,1,0}} both will be orbr,but actually they are not the same shape.
     }
+
+    public static void main(String[] args) {
+       HashSet<Integer> list = new HashSet<>();
+        list.add(1);
+        list.add(2);
+        HashSet<Integer> list2 = new HashSet<>();
+        list2.add(2);
+        list2.add(1);
+        System.out.println(list.equals(list2));
+        HashSet<Set<Integer>> set = new HashSet<>();
+        set.add(list);
+        set.add(list2);
+        System.out.println(set.size()+"");
+        NumberDistinctIslands694M test = new NumberDistinctIslands694M();
+        test.numDistinctIslands(new int[][]{
+                {1, 1, 0, 0, 0},
+                {1, 0, 0, 0, 0},
+                {0, 0, 0, 0, 1},
+                {0, 0, 0, 1, 1}
+        });
+    }
+
+
 }
