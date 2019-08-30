@@ -20,27 +20,28 @@ public class HouseRobberIICycle213M {
      * </p>
      **/
     public int rob(int[] nums) {
-        if (nums == null || nums.length == 0) {
+        if(nums == null || nums.length == 0){
             return 0;
         }
-        if (nums.length == 1) {
+        if(nums.length == 1){
             return nums[0];
         }
 
         int n = nums.length;
-        int[] dropLast = new int[n];//not rob the last one;
-        dropLast[0] = nums[0];
-        dropLast[1] = Math.max(nums[0], nums[1]);
-        for (int i = 2; i < n - 1; i++) {
-            dropLast[i] = Math.max(dropLast[i - 1], dropLast[i - 2] + nums[i]);
-        }
-        int[] dropFirst = new int[n];
-        dropFirst[0] = 0;
-        dropFirst[1] = nums[1];
-        for (int i = 2; i < n; i++) {
-            dropFirst[i] = Math.max(dropFirst[i - 1], dropFirst[i - 2] + nums[i]);
+        int[] exclude = new int[n];//not rob the last one;
+        exclude[0] = nums[0];
+        exclude[1] = Math.max(nums[0],nums[1]);
+        for(int i = 2; i < n-1; i++){
+            exclude[i] = Math.max(exclude[i-1],exclude[i-2]+nums[i]);
         }
 
-        return Math.max(dropFirst[n - 1], dropLast[n - 2]);
+        int[] include = new int[n];
+        include[0] = 0;
+        include[1]  = nums[1];
+        for(int i = 2; i < n; i++){
+            include[i] = Math.max(include[i-1],include[i-2]+nums[i]);
+        }
+
+        return Math.max(include[n-1],exclude[n-2]);
     }
 }
