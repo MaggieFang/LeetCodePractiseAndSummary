@@ -18,15 +18,12 @@ public class ReadNCharactersGivenRead4157E {
         public int read(char[] buf, int n) {
             char[] buf4 = new char[4];
             int index = 0;
-            while(true){
-                int cur = read4(buf4);
-                int min = Math.min(cur,n - index);
-                for(int i = 0; i < min; i++){
-                    buf[index++] = buf4[i];
-                }
-
-                if(cur != 4 || index >= n){
-                    break;
+            while(index < n){
+                int curRead = read4(buf4);
+                if(curRead == 0) break;
+                int j = 0;
+                while(index < n && j < curRead){
+                    buf[index++] = buf4[j++];
                 }
             }
             return index;

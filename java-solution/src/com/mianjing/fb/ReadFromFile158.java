@@ -8,25 +8,36 @@ import java.util.Random;
  * Talk is Cheap,Show me the Code.
  **/
 public class ReadFromFile158 {
-    private int p = 0;
-    private int size = 0;
-    private char[] buffer = new char[4];
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     * the difference between LC 157 is this one can do the multiple read.
+     * e.g file = "abc, it can call read(buf,1) then we return "a", then we call read(buf,2) then we return "bc",
+     * but notice that the first time read(buf,1),we use read4 has read "abc" all out. so in read(buf,2), we need to use the
+     * unretrieved read4 first. so we can know, we need to store the global buf4 and the size of read4 and the last time index of we get from read4.
+     *
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
+    char[] buf4 = new char[4];
+    int j = 0;
+    int size = 0;
 
     public int read(char[] buf, int n) {
         int i = 0;
         while (i < n) {
-            if (p == 0) {
-                size = read4(buffer);
+            while (i < n && j < size) {
+                buf[i++] = buf4[j++];
             }
-            if (size == 0) {
-                break;
-            }
-            while (i < n && p < size) {
-                buf[i++] = buffer[p++];
-            }
-            if (p >= size) {
-                p = 0;
-            }
+            if (i >= n) break;
+            j = 0;
+            size = read4(buf4);
+            if (size == 0)
+                break; // don't forget. otherwise, it never stop in some case. e.g file "abc", read(buf,1),read(buf,2),read(buf,1)
         }
         return i;
     }
@@ -43,7 +54,7 @@ public class ReadFromFile158 {
      * write pointer指向char array中第一个要写的位置，read pointer指向char array中第一个要读的位置。
      * 每回读或者写的时候pointer++，到达尾部的时候再回开头。
      * 不过我还加了个int size，表明这个char array中现在有多少是可以读的char。
-
+     *
      * </p>
      * PSEUDOCODE:
      * <pre>
