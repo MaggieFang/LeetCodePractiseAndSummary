@@ -20,9 +20,9 @@ public class LongestIncreasingSubSeq300M {
      *
      * </code>
      * </pre>
-     * TIME COMPLEXITY:
+     * TIME COMPLEXITY: O(n^2)
      * <p>
-     * SPACE COMPLEXITY:
+     * SPACE COMPLEXITY: O(n)
      * <p>
      **/
     public int lengthOfLIS(int[] nums) {
