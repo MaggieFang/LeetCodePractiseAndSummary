@@ -3,6 +3,7 @@ package com.sort;
 import com.basicStructure.Interval;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -11,28 +12,28 @@ import java.util.PriorityQueue;
  * Talk is Cheap,Show me the Code.
  **/
 public class MeetingRooms252E {
-    public boolean canAttendMeetingsQ(Interval[] in) {
-        PriorityQueue<Interval> q = new PriorityQueue<>(new Comparator<Interval>() {
-            @Override
-            public int compare(Interval o1, Interval o2) {
-                return o1.start - o2.start;
-            }
-        });
-        for (Interval i : in) {
-            q.add(i);
-        }
 
-        while (!q.isEmpty()) {
-            int end = q.poll().end;
-            if (q.peek() != null) {
-                int nextStart = q.peek().start;
-                if (end > nextStart) {
-                    return false;
-                }
+    public boolean canAttendMeetings(int[][] intervals) {
+        Arrays.sort(intervals, (int[] o1, int[] o2) -> o1[0] - o2[0]);
+        for (int i = 0; i < intervals.length - 1; i++) {
+            if (intervals[i + 1][0] < intervals[i][1]) {
+                return false;
             }
-
         }
         return true;
+        /**the second implementation.**/
+//        PriorityQueue<int[]> q = new PriorityQueue<>((int[] o1, int[] o2) -> o1[0] - o2[0]);
+//        Collections.addAll(q, intervals);
+//        int[] pri = null;
+//        while (!q.isEmpty()) {
+//            int[] cur = q.poll();
+//            if (pri != null && cur[0] < pri[1]) {
+//                return false;
+//            }
+//            pri = cur;
+//        }
+//
+//        return true;
 
     }
 
@@ -56,4 +57,8 @@ public class MeetingRooms252E {
         return true;
     }
 
+    public static void main(String[] args) {
+
+
+    }
 }

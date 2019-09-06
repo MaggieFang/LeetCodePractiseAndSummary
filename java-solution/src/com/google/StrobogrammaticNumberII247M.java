@@ -21,7 +21,7 @@ public class StrobogrammaticNumberII247M {
             return;
         }
         if (l == r) {
-            tmp[l] = '0';
+            tmp[l] = '0'; //这里不需要判断l == 0,不然 n = 1 case会失败
             ans.add(new String(tmp));
             tmp[l] = '1';
             ans.add(new String(tmp));
