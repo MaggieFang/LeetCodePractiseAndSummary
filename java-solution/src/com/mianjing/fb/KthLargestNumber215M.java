@@ -8,6 +8,7 @@ import java.util.PriorityQueue;
  * Talk is Cheap,Show me the Code.
  **/
 public class KthLargestNumber215M {
+    //O(NlogN)
     public int intfindKthLargestUseHeap(int[] nums, int k) {
         final PriorityQueue<Integer> pq = new PriorityQueue<>(); //小对
         for (int val : nums) {
