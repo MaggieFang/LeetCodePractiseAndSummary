@@ -1,13 +1,30 @@
 package com.google;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-08-25
  **/
 public class DifferentWaystoAddParentheses241M {
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     * this can be generalize into () ? (), e.g 2 -1 + 1 , we can be (2-1) + 1, 2- (1+1).
+     * so a tipical divide and conquer question.
+     * and of course, we can use a map to store the sub result for reuse.
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
+    HashMap<String,List<Integer>> map = new HashMap<>();
     public List<Integer> diffWaysToCompute(String input) {
+        if(map.containsKey(input)) return map.get(input); // for improvement, store tue sub result for reuse.
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
@@ -24,6 +41,7 @@ public class DifferentWaystoAddParentheses241M {
             }
         }
         if (res.size() == 0) res.add(Integer.parseInt(input));
+        map.put(input,res);
         return res;
     }
 }
