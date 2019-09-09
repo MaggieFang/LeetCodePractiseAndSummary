@@ -5,6 +5,38 @@ package com.amazon;
  * Talk is Cheap,Show me the Code.
  **/
 public class FindFirstAndLastPositionOfElementSort34M {
+    // 二刷，use binary search to find the target index, then move target left and right to find the start and end;
+    public int[] searchRange(int[] nums, int target) {
+        int i = 0;
+        int j = nums.length;
+        int t = -1;
+        int[] ans = new int[]{-1, -1}; // init with -1,-1
+        while (i < j) {
+            int mid = i + ((j - i) >> 1);
+            if (nums[mid] == target) {
+                t = mid;
+                break;
+            } else if (nums[mid] < target) {
+                i = mid + 1;
+            } else {
+                j = mid;
+            }
+        }
+        if (t != -1) {
+            ans[0] = ans[1] = t;
+            int tmp = t;
+            while (--tmp >= 0 && nums[tmp] == target) {
+                ans[0] = tmp;
+            }
+            tmp = t;
+            while (++tmp < nums.length && nums[tmp] == target) {
+                ans[1] = tmp;
+            }
+
+        }
+        return ans;
+    }
+
 
     public static int[] searchRange1(int[] A, int target) {
         int start = firstGreaterEqual(A, target);
@@ -30,34 +62,5 @@ public class FindFirstAndLastPositionOfElementSort34M {
             }
         }
         return low;
-    }
-    //do linear scan, from left.,find the first,and then from right find last
-    public int[] searchRange(int[] nums, int target) {
-        int[] ans = new int[]{-1,-1};
-        if(nums == null || nums.length == 0){
-            return ans;
-        }
-        int n = nums.length;
-        int low = 0;
-        while(low < n && nums[low] < target){
-            low++;
-        }
-        if(low < n && nums[low] == target){
-            ans[0] = low;
-        }else{
-            return ans;
-        }
-
-        int high = nums.length -1;
-        while(high > low && nums[high] > target){
-            high--;
-        }
-
-        ans[1] = high;
-        return ans;
-    }
-
-    public static void main(String[] args){
-        System.out.println(searchRange1(new int[]{2,5,7,7,8,8,10},8));
     }
 }
