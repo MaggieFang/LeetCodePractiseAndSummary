@@ -24,7 +24,7 @@ public class MaxStack716E {
      * SPACE COMPLEXITY:O(n)
      * </p>
      **/
-    class MaxStack {
+    static class MaxStack {
         private Stack<Integer> maxStack;
         private Stack<Integer> stack;
 
@@ -89,14 +89,14 @@ public class MaxStack716E {
      * when top() just return cur.val
      * when peek() return map.lastKey
      * when popMax(); retrive the map.lastEntry(), remove from map(remove the entry if list is empty after remove).
-     *  and if the remove node is cur, update the cur to the pre. if not, update the pre and next of the deleted node.
+     * and if the remove node is cur, update the cur to the pre. if not, update the pre and next of the deleted node.
      * </p>
      * TIME COMPLEXITY:O(logN)
      * SPACE COMPLEXITY: O(N)
      * </p>
      **/
     static class MaxStack2 {
-        private TreeMap<Integer,List<Node>> map; // treeMap don't allow duplicate key, need a list to store the duplicate element
+        private TreeMap<Integer, List<Node>> map; // treeMap don't allow duplicate key, need a list to store the duplicate element
         Node cur;
 
         /**
@@ -112,17 +112,17 @@ public class MaxStack716E {
             cur.next = node;
             node.pre = cur;
             cur = node;
-            List<Node> list = map.getOrDefault(x,new ArrayList<>());
+            List<Node> list = map.getOrDefault(x, new ArrayList<>());
             list.add(node);
-            map.put(x,list);
+            map.put(x, list);
 
         }
 
         public int pop() {
 
             List<Node> list = map.get(cur.val);
-            list.remove(list.size() -1);
-            if(list.size() == 0){ // important. when the list is empty,remove the entry
+            list.remove(list.size() - 1);
+            if (list.size() == 0) { // important. when the list is empty,remove the entry
                 map.remove(cur.val);
             }
             int r = cur.val;
@@ -142,16 +142,16 @@ public class MaxStack716E {
         }
 
         public int popMax() {
-            Map.Entry<Integer,List<Node>> entry = map.lastEntry();
+            Map.Entry<Integer, List<Node>> entry = map.lastEntry();
             List<Node> list = entry.getValue();
             Node remove = list.remove(list.size() - 1);
-            if(list.size()== 0){
+            if (list.size() == 0) {
                 map.remove(entry.getKey());
             }
-            if(remove == cur){ // if the remove node is cur one. update the cur to pre
+            if (remove == cur) { // if the remove node is cur one. update the cur to pre
                 cur = cur.pre;
                 cur.next = null;
-            }else{ // update the delete node pre and next pointer
+            } else { // update the delete node pre and next pointer
                 remove.pre.next = remove.next;
                 remove.next.pre = remove.pre;
                 remove.pre = null;
@@ -173,25 +173,15 @@ public class MaxStack716E {
 
     }
 
-        class Node {
-            int val;
-            Node pre;
-            Node next;
+    class Node {
+        int val;
+        Node pre;
+        Node next;
 
-            public Node(int v) {
-                this.val = v;
-            }
+        public Node(int v) {
+            this.val = v;
         }
     }
 
-    public static void main(String[] args) {
-        MaxStack2 stack = new MaxStack2();
-        stack.push(5);
-        stack.push(1);
-        stack.push(6);
-        System.out.println(stack.peekMax());
-        System.out.println(stack.popMax());
-        System.out.println(stack.popMax());
-        System.out.println(stack.top());
-    }
 }
+
