@@ -8,21 +8,55 @@ import java.util.Stack;
  * Talk is Cheap,Show me the Code.
  **/
 public class MinStack155 {
-    public static void main(String[] args) {
-        MinStack155 stack = new MinStack155();
-        stack.push(2);
-        stack.push(0);
-        stack.push(3);
-        stack.push(2);
-        System.out.println(stack.getMin());
-        stack.pop();
-        System.out.println(stack.getMin());
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     * can use same method with MaxStack716E
+     *  use two stack, one is a general one to serve for peek,pop, s1. another one is to keep the min,s2
+     * in push(x), we push it into s1, and if  s2.peek() >= x,we push it into s2, too.
+     * in pop(), we pop from s1, and if it == s2.peek(), we pop s2,too,
+     * in peekmax, return s2.peek()
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
 
-        stack.pop();
-        System.out.println(stack.getMin());
+    class MinStack {
+        private Stack<Integer> minStack;
+        private Stack<Integer> stack;
 
-        stack.pop();
-        System.out.println(stack.getMin());
+        /**
+         * initialize your data structure here.
+         */
+        public MinStack() {
+            this.minStack = new Stack<>();
+            this.stack = new Stack<>();
+        }
+
+        public void push(int x) {
+            stack.push(x);
+            if (minStack.isEmpty() || minStack.peek() >= x) {
+                minStack.push(x);
+            }
+        }
+
+        public void pop() {
+            int e = stack.pop();
+            if (minStack.peek() == e) {
+                minStack.pop();
+            }
+        }
+
+        public int top() {
+            return stack.peek();
+        }
+
+        public int getMin() {
+            return minStack.peek();
+        }
     }
 
     private int min = Integer.MAX_VALUE;
@@ -32,7 +66,6 @@ public class MinStack155 {
         elements = new ArrayList<>();
 
     }
-
 
     public void push(int x) {
         elements.add(x);
