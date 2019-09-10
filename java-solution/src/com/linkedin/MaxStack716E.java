@@ -8,7 +8,7 @@ import java.util.*;
 public class MaxStack716E {
     /**
      * Clarification:
-     * second time
+     * second time; using two stack
      * </p>
      * Keypoints:
      * we can use two stack, one is a general one to serve for peek,pop, s1. another one is to keep the max,s2
@@ -84,24 +84,27 @@ public class MaxStack716E {
      * </p>
      * Keypoints:
      * using treeMap + double link list.
-     *
+     * when push(x), append to to double link list. and add to the map
+     * when pop(): remove from map(remove the entry if list is empty after remove). and then make the cur pointer in link list point to pre
+     * when top() just return cur.val
+     * when peek() return map.lastKey
+     * when popMax(); retrive the map.lastEntry(), remove from map(remove the entry if list is empty after remove).
+     *  and if the remove node is cur, update the cur to the pre. if not, update the pre and next of the deleted node.
      * </p>
-     * TIME COMPLEXITY:
-     * SPACE COMPLEXITY:
+     * TIME COMPLEXITY:O(logN)
+     * SPACE COMPLEXITY: O(N)
      * </p>
      **/
     static class MaxStack2 {
-        private TreeMap<Integer, List<Node>> treeMap;// treeMap not allow duplicate key. so need a list to contain the values with same key.
-        private Node head;
-        private Node cur;
+        private TreeMap<Integer,List<Node>> map; // treeMap don't allow duplicate key, need a list to store the duplicate element
+        Node cur;
 
         /**
          * initialize your data structure here.
          */
         public MaxStack2() {
-            treeMap = new TreeMap<>();
-            head = new Node(Integer.MIN_VALUE);
-            cur = head;
+            this.map = new TreeMap<>();
+            cur = new Node(Integer.MIN_VALUE);
         }
 
         public void push(int x) {
@@ -109,9 +112,23 @@ public class MaxStack716E {
             cur.next = node;
             node.pre = cur;
             cur = node;
-            List<Node> nodes = treeMap.getOrDefault(x, new ArrayList<>());
-            nodes.add(node);
-            treeMap.put(x, nodes);
+            List<Node> list = map.getOrDefault(x,new ArrayList<>());
+            list.add(node);
+            map.put(x,list);
+
+        }
+
+        public int pop() {
+
+            List<Node> list = map.get(cur.val);
+            list.remove(list.size() -1);
+            if(list.size() == 0){ // important. when the list is empty,remove the entry
+                map.remove(cur.val);
+            }
+            int r = cur.val;
+            cur = cur.pre;
+            cur.next = null;
+            return r;
 
         }
 
@@ -121,39 +138,40 @@ public class MaxStack716E {
         }
 
         public int peekMax() {
-            return treeMap.lastKey();
-        }
-
-        public int pop() {
-            Node tmp = cur.pre;
-            tmp.next = cur.next;
-            cur.pre = null;
-            int r = cur.val;
-            List<Node> nodes = treeMap.get(r);
-            nodes.remove(nodes.size() - 1);
-            if (nodes.size() == 0) treeMap.remove(r);
-            cur = tmp;
-            return r;
+            return map.lastKey();
         }
 
         public int popMax() {
-            Map.Entry<Integer, List<Node>> entry = treeMap.lastEntry();
-            List<Node> nodes = entry.getValue();
-            int r = entry.getKey();
-            Node node = nodes.remove(nodes.size() - 1);
-            if (nodes.size() == 0)
-                treeMap.remove(r); // important. otherwise, the max key will still here though actually not value exists.
-            if (node == cur) { // when the max is the current node.
-                cur = node.pre;
+            Map.Entry<Integer,List<Node>> entry = map.lastEntry();
+            List<Node> list = entry.getValue();
+            Node remove = list.remove(list.size() - 1);
+            if(list.size()== 0){
+                map.remove(entry.getKey());
             }
-            node.pre.next = node.next;
-            if (node.next != null) { //maybe the last one
-                node.next.pre = node.pre;
+            if(remove == cur){ // if the remove node is cur one. update the cur to pre
+                cur = cur.pre;
+                cur.next = null;
+            }else{ // update the delete node pre and next pointer
+                remove.pre.next = remove.next;
+                remove.next.pre = remove.pre;
+                remove.pre = null;
+                remove.next = null;
             }
-            node.next = null;
-            node.pre = null;
-            return r;
+            return remove.val;
+
         }
+
+        static class Node {
+            int val;
+            Node pre;
+            Node next;
+
+            public Node(int v) {
+                this.val = v;
+            }
+        }
+
+    }
 
         class Node {
             int val;
