@@ -1,4 +1,4 @@
-package com.amazon;
+package com.linkedin;
 
 import com.easy.tree.TreeNode;
 
