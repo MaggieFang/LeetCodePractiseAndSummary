@@ -12,8 +12,10 @@ public class ClosestBinarySearchTreeValue270E {
      *
      * </p>
      * Keypoints:
-     * 求BST中跟target最近的数字。我们先设置一个min = root.val，然后用iterative的办法尝试更新min， 然后比较target与root的大小，进行二分查找。
-     * </p>
+     * since BST have the feature of left.val < root.val < right.val.we can initial the min is root. and then
+     * compare the target with root.val, if target < root.val, maybe a much min one exists in the left;
+     * otherwise, target > root.val. maybe a much min one is in the right.
+     * * </p>
      * TIME COMPLEXITY: O(logN)
      * SPACE COMPLEXITY:O(1)
      * </p>
