@@ -11,13 +11,13 @@ import java.util.List;
 public class FindLeavesofBinaryTree366M {
     /**
      * Clarification:
-     *
-     *            1
-     *          / \
-     *         2   3
-     *        / \
-     *       4   5
-     *
+     * <p>
+     * 1
+     * / \
+     * 2   3
+     * / \
+     * 4   5
+     * <p>
      * Output: [[4,5,3],[2],[1]]
      * </p>
      * Keypoints:
@@ -26,8 +26,9 @@ public class FindLeavesofBinaryTree366M {
      * so we can refer to the MaxDepthOfBT104, to find the depth, durning the recur, we store the result for each depth.
      *
      * </p>
-     * TIME COMPLEXITY: O(n)
-     * SPACE COMPLEXITY: O(n)
+     * * TIME COMPLEXITY: we visit each node exactly once, O(N)
+     * * SPACE COMPLEXITY: in the worst case, unblanced tree, the recursion call would occur N times,so O(N)
+     * *                  but best for blanced tree O(LogN)
      * </p>
      **/
     public List<List<Integer>> findLeaves(TreeNode root) {
