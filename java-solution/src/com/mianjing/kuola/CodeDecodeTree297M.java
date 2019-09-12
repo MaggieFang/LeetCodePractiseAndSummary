@@ -28,26 +28,23 @@ public class CodeDecodeTree297M {
      * SPACE COMPLEXITY:
      * <p>
      **/
-    private final static String EMPTY = "#";
-    private final static String FILTER = ",";
+    private static final String EMPTY = "#";
+    private static final String SEP = ",";
+    private int i = 0;
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        if (root == null) {
-            return null;
-        }
         StringBuilder sb = new StringBuilder();
         serialize(root, sb);
         return sb.toString();
-
 
     }
 
     public void serialize(TreeNode root, StringBuilder sb) {
         if (root == null) {
-            sb.append(EMPTY).append(FILTER);
+            sb.append(EMPTY).append(SEP);
         } else {
-            sb.append(root.val).append(FILTER);
+            sb.append(root.val).append(SEP);
             serialize(root.left, sb);
             serialize(root.right, sb);
         }
@@ -55,37 +52,23 @@ public class CodeDecodeTree297M {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data == null) {
-            return null;
-        }
-        String[] s = data.split(FILTER);
-        Queue<String> queue = new LinkedList<>();
-        Collections.addAll(queue, s);
-        return deserialize(queue);
+        String[] sp = data.split(SEP);
+        return deserialize(sp);
     }
 
-    public TreeNode deserialize(Queue<String> queue) {
-        if (queue.isEmpty()) {
+    public TreeNode deserialize(String[] sp) {
+        if (i >= sp.length) {
             return null;
         }
-        String s = queue.poll();
+        String s = sp[i++];
         if (EMPTY.equals(s)) {
             return null;
         }
         TreeNode node = new TreeNode(Integer.parseInt(s));
-        node.left = deserialize(queue);
-        node.right = deserialize(queue);
+        node.left = deserialize(sp);
+        node.right = deserialize(sp);
         return node;
-    }
 
-    public static void main(String[] args){
-        TreeNode root= new TreeNode(1);
-        root.left = new TreeNode(2);
-        TreeNode r = root.right = new TreeNode(3);
-        r.left = new TreeNode(4);
-        r.right = new TreeNode(5);
-        CodeDecodeTree297M t = new CodeDecodeTree297M();
-        System.out.println(t.serialize(root));
 
     }
 }

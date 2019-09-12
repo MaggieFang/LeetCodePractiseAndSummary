@@ -23,7 +23,7 @@ public class ClosestBinarySearchTreeValueII272H {
      * and add this new element to the last.
      * </p>
      * TIME COMPLEXITY: O(n)
-     * SPACE COMPLEXITY: 
+     * SPACE COMPLEXITY:
      * </p>
      **/
     public List<Integer> closestKValues(TreeNode root, double target, int k) {
