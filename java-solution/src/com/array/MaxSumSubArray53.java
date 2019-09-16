@@ -13,8 +13,8 @@ public class MaxSumSubArray53 {
     /**
      * KEYPOINTS:
      * <p>
-     *    很多题，我们都是在处当前元素时候考虑当前元素要不要，但对于这道题，我们应该考虑当前元素是不是新的开始，
-     *    之前的元素带来的影响是小于0的，那么我们肯定舍弃
+     * 很多题，我们都是在处当前元素时候考虑当前元素要不要，但对于这道题，我们应该考虑当前元素是不是新的开始，
+     * 之前的元素带来的影响是小于0的，那么我们肯定舍弃
      * </p>
      * PSEUDOCODE:
      * <pre>
@@ -27,7 +27,7 @@ public class MaxSumSubArray53 {
      *        else
      *            sum += A[i]
      *        //说明这一轮带来的影响是正面的，如-1，1，-3，当sum = 1时，到-3元素。sum会变-2，所以我们用max保存1目前的最大
-    *         if max < sum
+     *         if max < sum
      *                max = sum
      *    return max;
      * </code>
@@ -36,19 +36,17 @@ public class MaxSumSubArray53 {
      * <p>
      * SPACE COMPLEXITY:O{1}
      * <p>
-    **/
-    public static int maxSubArray(int[] A) {
+     **/
+    public int maxSubArray(int[] nums) {
         int max = Integer.MIN_VALUE;
-        int sum = 0;
-        for (int i = 0; i < A.length; i++) {
-            if(sum < 0){
-                sum = A[i];
-            }else {
-                sum += A[i];
+        int cur = 0;
+        for (int i : nums) {
+            if (cur <= 0) {
+                cur = i;
+            } else {
+                cur += i;
             }
-            if(max < sum){
-                max = sum;
-            }
+            max = Math.max(max, cur);
         }
         return max;
     }
@@ -56,7 +54,7 @@ public class MaxSumSubArray53 {
     /**
      * KEYPOINTS:
      * <p>
-     *     brute loop.
+     * brute loop.
      * <p>
      * </p>
      * PSEUDOCODE:

@@ -11,7 +11,7 @@ import java.util.List;
 public class ClosestBinarySearchTreeValueII272H {
     /**
      * Clarification:
-     * extension of ClosestBinarySearchTreeValue270E
+     * extension of
      * </p>
      * Keypoints:
      * for ClosestBinarySearchTreeValue270E, we only need one, so we can keep the min and according to left < root < right to do

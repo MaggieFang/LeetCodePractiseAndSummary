@@ -43,4 +43,39 @@ public class BinaryTreeLevelOrderTravel102M {
         }
         return ans;
     }
+
+//    public List<List<Integer>> levelOrder(TreeNode root) {
+//        if(root == null) return new ArrayList<>();
+//        int i= 0;
+//        List<List<Integer>> res = new ArrayList<>();
+//        Stack<TreeNode> stack = new Stack();
+//        stack.push(root);
+//        while(!stack.isEmpty()){
+//            if(i >= res.size()){
+//                res.add(new ArrayList<>());
+//            }
+//
+//            List<TreeNode> tmp = new ArrayList<>();
+//            while(!stack.isEmpty()){
+//                tmp.add(stack.pop());
+//            }
+//
+//
+//            for(TreeNode t: tmp){
+//                res.get(i).add(t.val);
+//            }
+//            for(int j = tmp.size() -1; j >= 0; j--){
+//                TreeNode t = tmp.get(j);
+//                if(t.right != null){
+//                    stack.push(t.right);
+//                }
+//                if(t.left != null){
+//                    stack.push(t.left);
+//                }
+//            }
+//            i++;
+//
+//        }
+//        return res;
+//    }
 }
