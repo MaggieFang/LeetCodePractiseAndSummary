@@ -11,7 +11,7 @@ import java.util.Queue;
 public class CampusBikes1057M {
     /**
      * Clarification:
-     *
+     *  this is return a array, try to find the min for each one. a greedy. use priorityQueue.
      * </p>
      * Keypoints:
      * n workers and m bikes, and m > n. solve this question using a greedy approach.
