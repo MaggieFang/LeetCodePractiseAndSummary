@@ -22,6 +22,8 @@ public class ThreeSum15M {
      *         and use two pointer low,hi to find the pair equals to v.
      *         notice that to filter the same item because the same A[i] will find the same result.
      *         e.g -1,-1,0,1,2, the {-1,0,1} has been found when  i = 0, so A[1]==A[0] the A[1] can be ignore.
+     *         another case is [-2,0,0,2,2], when l = 1, r = 4 we found a result,we also need to skip with the same l and same h
+     *         for -2 gets[-2,0,2],we skip the l=2, and skip the r = 3; otherwise will get repeated result.
      *
      *  <p>
      * </p>
@@ -51,6 +53,7 @@ public class ThreeSum15M {
                     result.add(Arrays.asList(num[i], num[low], num[hi]));
                     low++;
                     hi--;
+                    //这两步也很重要![-2,0,0,2,2]
                     while (low < hi && num[low] == num[low - 1]) low++;
                     while (low < hi && num[hi] == num[hi + 1]) hi--;
                 } else if (v < sum) {
