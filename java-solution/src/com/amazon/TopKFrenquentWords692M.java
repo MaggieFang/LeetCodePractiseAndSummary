@@ -16,6 +16,48 @@ public class TopKFrenquentWords692M {
     /**
      * KEYPOINTS:
      * <p>
+     *  use PriorityQueue. override the compare method, use count first and use string.compareTo()
+     * </p>
+     * PSEUDOCODE:
+     * <pre>
+     *  <code>
+     *
+     * </code>
+     * </pre>
+     * TIME COMPLEXITY:O(NlogN), where N is the length of words. We count the frequency of each word in O(N)time,
+     * then we add N words to the heap, each in O(logM) time.
+     * Finally, we pop from the heap up to k times.
+     * <p>
+     * SPACE COMPLEXITY: O(N)
+     * <p>
+     **/
+    public List<String> topKFrequentQ(String[] words, int k) {
+        HashMap<String,Integer> map = new HashMap();
+        for(String w : words){
+            Integer count = map.getOrDefault(w,0);
+            map.put(w,count+1);
+        }
+
+        PriorityQueue<String> q = new PriorityQueue<>((String o1, String o2) -> {
+            int c1 = map.get(o1);
+            int c2 = map.get(o2);
+            int dif = c2 - c1;
+            if(dif !=0) return dif;
+            return o1.compareTo(o2);
+        });
+        for(Map.Entry<String,Integer> entry: map.entrySet()){ // get the element from the map here. don't need from words[]
+            q.add(entry.getKey());
+        }
+        List<String> res = new ArrayList<>();
+        while(!q.isEmpty() && k-- > 0){
+            res.add(q.poll());
+        }
+        return res;
+    }
+
+    /**
+     * KEYPOINTS:
+     * <p>
      * count the frequcies.
      * init arrayList with all keySet for candicate.
      * use Collection.sort and define the comparator. Sort by frequency. if same. sort by string natural order.
@@ -54,57 +96,8 @@ public class TopKFrenquentWords692M {
         return candidates.subList(0, k);
     }
 
-    /**
-     * KEYPOINTS:
-     * <p>
-     *  use PriorityQueue instead of the above the compare. But we need to build the min(oppsite above.)
-     *  because we need to delete the min one  when q size > k,
-     *  so the ans finally should be reverse.
-     * </p>
-     * PSEUDOCODE:
-     * <pre>
-     *  <code>
-     *
-     * </code>
-     * </pre>
-     * TIME COMPLEXITY:O(Nlogk), where N is the length of words. We count the frequency of each word in O(N)time,
-     * then we add N words to the heap, each in O(logk) time.
-     * Finally, we pop from the heap up to k times.
-     * <p>
-     * SPACE COMPLEXITY: O(N)
-     * <p>
-    **/
-    public List<String> topKFrequent2(String[] words, int k) {
-        final HashMap<String,Integer> map = new HashMap<>();
 
-
-        for(String s: words){
-            int v = map.getOrDefault(s,0)+1;
-            map.put(s,v);
-        }
-
-        PriorityQueue<String> q = new PriorityQueue<>(new Comparator<String>(){ // build the minheap, because we need to delete the min one when size > k
-            @Override
-            public int compare(String s1,String s2){
-                int v1 = map.get(s1);
-                int v2 = map.get(s2);
-                return v1 - v2 != 0 ? v1 -v2:s2.compareTo(s1);
-            }
-        });
-
-        for(Map.Entry<String,Integer> entry:map.entrySet()){
-            q.add(entry.getKey());
-            if(q.size() > k){
-                q.poll();
-            }
-        }
-        List<String> ans = new ArrayList<>();
-        while(!q.isEmpty()){
-            ans.add(q.poll());
-        }
-        Collections.reverse(ans);
-        return ans;
-    }
 }
+
 
 

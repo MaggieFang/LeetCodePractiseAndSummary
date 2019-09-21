@@ -3,7 +3,6 @@ package com.google;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-09-16
