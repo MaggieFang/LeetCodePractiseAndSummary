@@ -21,7 +21,7 @@ public class TopKFrenquentWords692M {
      * PSEUDOCODE:
      * <pre>
      *  <code>
-     *
+     *   TopKFrequentElements347M
      * </code>
      * </pre>
      * TIME COMPLEXITY:O(NlogN), where N is the length of words. We count the frequency of each word in O(N)time,
