@@ -5,8 +5,20 @@ package com.fb;
  * Talk is Cheap,Show me the Code.
  **/
 public class NumberIsland200 {
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     *
+     * </p>
+     * TIME COMPLEXITY: O(m*n)
+     * SPACE COMPLEXITY:O(m*n)
+     * </p>
+     **/
     int nr;
     int nc;
+
     void dfs(char[][] grid, int r, int c) {
         if (r < 0 || c < 0 || r >= nr || c >= nc || grid[r][c] == '0') {//grid[r][c] == '0' judge important. otherwise overflow
             return;
