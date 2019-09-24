@@ -12,32 +12,35 @@ import java.util.PriorityQueue;
  * Talk is Cheap,Show me the Code.
  **/
 public class TopKFrequentElements347M {
+    /**
+     * Clarification:
+     *
+     * </p>
+     * Keypoints:
+     *  similar method in LC692
+     *
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
     public List<Integer> topKFrequent(int[] nums, int k) {
-        final HashMap<Integer,Integer> map = new HashMap<>();
-        for(int n : nums){
-            map.put(n,map.getOrDefault(n,0)+1);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int n : nums) {
+            map.put(n, map.getOrDefault(n, 0) + 1);
         }
-
-        PriorityQueue<Integer> q = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return map.get(o1) - map.get(o2);
-            }
-        });
-
-        for(Integer key : map.keySet()){
+        PriorityQueue<Integer> q = new PriorityQueue<>((Integer o1, Integer o2) -> map.get(o1) - map.get(o2));
+        for (Integer key : map.keySet()) {
             q.add(key);
-            if(q.size() > k) {
+            if (q.size() > k) {
                 q.poll();
             }
         }
-
-        List<Integer> ans = new ArrayList<>();
-        while (!q.isEmpty()){
-            ans.add(q.poll());
+        List<Integer> list = new ArrayList<>();
+        while (!q.isEmpty()) {
+            list.add(q.poll());
         }
-        Collections.reverse(ans);
-        return ans;
-
+        Collections.reverse(list);
+        return list;
     }
 }

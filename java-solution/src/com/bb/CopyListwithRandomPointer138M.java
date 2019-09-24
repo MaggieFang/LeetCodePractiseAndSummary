@@ -13,11 +13,12 @@ public class CopyListwithRandomPointer138M {
      * Keypoints:
      * need a map to store whether a node has been created.
      * and define a getNode to generate a node using val, and put it in map meanwhile.
-     * 
+     * then loop the node from head to end, each time need to handle the random node at the same time
+     * otherwise,totally same with deep copy a linked list
      *
      * </p>
-     * TIME COMPLEXITY:
-     * SPACE COMPLEXITY:
+     * TIME COMPLEXITY: O(N)
+     * SPACE COMPLEXITY: O(N)
      * </p>
      **/
     public Node copyRandomList(Node head) {
