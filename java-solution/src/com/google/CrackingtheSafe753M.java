@@ -1,6 +1,6 @@
 package com.google;
 
-import java.util.HashSet;
+import java.util.*;
 
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-09-27
@@ -16,7 +16,7 @@ public class CrackingtheSafe753M {
      * so firstly,we initial the res with n-digital '0', and then retrieve the last n-1 digits.
      * and try to append a new char from k-1.. 0, but we need to store what have been visited.
      * </p>
-     * TIME COMPLEXITY: 
+     * TIME COMPLEXITY:
      * SPACE COMPLEXITY:
      * </p>
      **/
