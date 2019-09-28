@@ -1,6 +1,5 @@
 package com.google;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -90,5 +89,18 @@ public class BraceExpansion1087M {
 //        ans = res.toArray(ans);
 //        return ans;
 //    }
+    public static void main(String[] args){
+        Set<char[]> set = new HashSet<>();
+        char[] c = new char[]{'1','2'};
+        char[] b = new char[]{'1','2'};
+        char[] d = new char[]{'2','1'};
+        set.add(b);
+        set.add(c);
+        set.add(d);
+        char[] a = Arrays.copyOfRange(b,1,b.length);
+        Arrays.toString(a);
+        System.out.println();
+        StringBuilder sb = new StringBuilder();
+    }
 
 }
