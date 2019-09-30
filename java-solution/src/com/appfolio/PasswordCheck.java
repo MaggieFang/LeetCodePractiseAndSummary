@@ -54,6 +54,7 @@ public class PasswordCheck {
 
 
     public static void main(String[] args) {
+        System.out.println(matched("oa","[a-z]*"));
         System.out.println(matched("hello","ll"));
         System.out.println(matched("hello","e"));
         System.out.println(matched("hello","eo"));
