@@ -40,7 +40,7 @@ public class CatandMouse913H {
         }
         return helper(dp, graph, 1, 2, 0);
 
-    }2
+    }
 
     private int helper(int[][][] dp, int[][] graph, int x, int y, int step) {
         if (step == (n << 1)) return 0; // finished 2n steps runs
