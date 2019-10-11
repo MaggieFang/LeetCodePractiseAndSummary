@@ -12,7 +12,7 @@ public class ContainsDuplicateII219E {
             return false;
         }
 
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();//no need to store all the index for a element.just save the most prior one.
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
                 if (i - map.get(nums[i]) <= k) {

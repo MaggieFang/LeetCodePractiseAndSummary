@@ -67,40 +67,4 @@ public class BraceExpansion1087M {
         }
 
     }
-
-//    public String[] expand(String S) {
-//        if (S == null || S.length() == 0) return new String[]{};
-//        String[] sp = S.split("\\{|\\}");
-//        List<char[]> tmp = new ArrayList<>();
-//        for (String s : sp) {
-//            if (s.length() == 0) continue;
-//            StringBuilder sb = new StringBuilder();
-//            for (int i = 0; i < s.length(); i++) {
-//                char c = s.charAt(i);
-//                if (c != ',') {
-//                    sb.append(c);
-//                }
-//            }
-//            tmp.add(toSortedChar(sb));
-//        }
-//        List<String> res = new ArrayList<>();
-//        dfs(tmp, 0, new StringBuilder(), res);
-//        String[] ans = new String[res.size()];
-//        ans = res.toArray(ans);
-//        return ans;
-//    }
-    public static void main(String[] args){
-        Set<char[]> set = new HashSet<>();
-        char[] c = new char[]{'1','2'};
-        char[] b = new char[]{'1','2'};
-        char[] d = new char[]{'2','1'};
-        set.add(b);
-        set.add(c);
-        set.add(d);
-        char[] a = Arrays.copyOfRange(b,1,b.length);
-        Arrays.toString(a);
-        System.out.println();
-        StringBuilder sb = new StringBuilder();
-    }
-
 }

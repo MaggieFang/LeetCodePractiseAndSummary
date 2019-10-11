@@ -16,7 +16,10 @@ public class DifferentWaystoAddParentheses241M {
      * Keypoints:
      * this can be generalize into () ? (), e.g 2 -1 + 1 , we can be (2-1) + 1, 2- (1+1).
      * so a tipical divide and conquer question.
-     * and of course, we can use a map to store the sub result for reuse.
+     * and of course, we can use a map to store the sub result for reuse.(use a map, key is the input string, value is list<Integer> result of this input string)
+     * so, iterate each char in the input. when the cur char is an operator(*,+,-),
+     * we call the same function to compute the result of the left sub and right sub respectively.
+     *  when get the result leftList and rightList. compute their combination add to result.
      * </p>
      * TIME COMPLEXITY:
      * SPACE COMPLEXITY:

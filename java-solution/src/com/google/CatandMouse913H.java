@@ -14,7 +14,7 @@ public class CatandMouse913H {
      * Keypoints:
      * a graph traversal problems, but there are two objects. there a n nodes here, no mater for cat or mouse,when they finished their traversal(n nodes)
      * if there is no one reach its goal. then 0. so at most 2n steps we can get results.
-     * for each state. there are three factors here, current step, the node mouse in , the node cat in. so we can use a 3-d dp for this
+     * for each state. there are three factors here, current step（to decide whose turn）, the node mouse in , the node cat in. so we can use a 3-d dp for this
      * dp[step][x][y], store the result(0,1,2) for the the current step, mouse in node x, cat in node y.
      * what we want is dp[0][1][2].
      * we init dp[step][x][y] with -1.

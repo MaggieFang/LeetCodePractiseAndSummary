@@ -14,6 +14,7 @@ public class DailyTemperatures739M {
      * </p>
      * Keypoints:
      *  use a stack. from the back.when come to a element,try to find the index that are larger than this element.
+     *  how? pop those that are smaller than cur element.
      *  no need to concern that maybe some pop index will be used latter. no such case since when it pop, it means there are
      *  index that are smaller can be used.
      * </p>

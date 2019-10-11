@@ -6,7 +6,13 @@ package com.google;
 public class CampusBikesII1066M {
     /**
      * Clarification:
+     * 这个题跟1057不同，如 b0 到 w0, w1居然分别是1，2，b1 到w0,w1 是2,8,如果按照1057，(b0,w0)+(b1,w1)= 9,但更好的是(b0,w1)+(b1,w0)=4
+     *
      * This one ask for the min total distance. use dfs. we can store the curDist for early stop( pruning)
+     * Try to assign every bike, to all the workers and find the min.
+     * Take every path possible to find the shortest combined distance for all pairs of bikes and workers
+     * 也就是对每个worker，试试吧bike[i]分给他，并吧bike[i]标志为已经被signed，继续下个worker，不断dfs
+     *
      * </p>
      * Keypoints:
      *

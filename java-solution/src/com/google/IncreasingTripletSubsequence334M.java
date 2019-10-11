@@ -15,6 +15,8 @@ public class IncreasingTripletSubsequence334M {
      * and small[i] = min(small[i-1],nums[i])
      * and large[i] = max(large[i+1],nums[i])
      * then we check if there are small[i] < num[i] < large
+     *
+     * A little trick here, though what we want is left < cur < right, but small[i],large[i] include cur, and finally check  small[i] < num[i] < large
      * </p>
      * TIME COMPLEXITY: O(n)
      * SPACE COMPLEXITY: O(n)

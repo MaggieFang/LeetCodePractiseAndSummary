@@ -14,7 +14,8 @@ public class CompareStringsbyFrequencyoftheSmallestCharacter1170E {
      * </p>
      * Keypoints:
      * Counting sort is a sorting technique based on keys between a specific range
-     * since it says 1 <= queries[i].length, words[i].length <= 10
+     * since it says 1 <= queries[i].length, words[i].length <= 10 每个单词不超过10个char，
+     * 那么f(w)肯定不超过10，所以可以用base int[11]来统计words里边出现的情况，base[i]表示words里边freq>=i的个数
      * so we can use a base int[11] to count the words f(), and using counting sort for it.
      * so base[i] mean the number of the fre <= i.
      * so when traversal queries, get the freq of queries[i], get ans [i] = words.length - base[i]
