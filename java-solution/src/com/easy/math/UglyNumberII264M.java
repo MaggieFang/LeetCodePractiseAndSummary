@@ -1,5 +1,6 @@
 package com.easy.math;
 
+import java.util.PriorityQueue;
 import java.util.TreeSet;
 
 /**
@@ -16,6 +17,8 @@ public class UglyNumberII264M {
      * so we can use a treest, initiate with 1, and pop it out to multiply 2,3,5 and add it to set.
      * when we do n times pop. we first element is our answer.
      *
+     * we should use treeset instead of  priorityQueue here since if use pq, there will be duplicate numbers in pq.
+     * e.g when pop 2, we will 2*3 put 6. and  when pop 3, we also push 3*2 = 6 into it.
      * </p>
      * TIME COMPLEXITY: O(n)
      * SPACE COMPLEXITY: O(n)
@@ -33,4 +36,5 @@ public class UglyNumberII264M {
         return set.first().intValue();
 
     }
+
 }
