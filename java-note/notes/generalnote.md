@@ -23,4 +23,6 @@
 - SortedMap<K,V>  headMap(K tokey) //  从头到 tokey(exclude)的集合
 - SortedMap<K,V>  tailMap(K fromkey)  // 从fromkey(include)到尾的集合
 ```
-
+### 并查集
+连通相关的，例如共同祖先，连图数量等等，都可以用用它解决
+https://blog.csdn.net/liujian20150808/article/details/50848646

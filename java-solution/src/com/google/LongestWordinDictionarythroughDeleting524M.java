@@ -88,6 +88,7 @@ public class LongestWordinDictionarythroughDeleting524M {
                 char c = str.charAt(i);
                 if (!map.containsKey(c)) break;
                 List<Integer> list = map.get(c);
+                //这里可以改成像392folloup那样，用二分找binarySearch
                 int tmp = idx;
                 for (int e : list) {
                     if (e > idx) {
@@ -109,10 +110,18 @@ public class LongestWordinDictionarythroughDeleting524M {
         return res;
     }
 
-    public static void main(String[] args) {
-        LongestWordinDictionarythroughDeleting524M t = new LongestWordinDictionarythroughDeleting524M();
-
-        t.findLongestWord("abpcplea", Arrays.asList(new String[]{"ale", "apple", "monkey", "plea"}));
-
+    private int binarySearch(int pre, List<Integer> list){
+        int low = 0;
+        int high = list.size() -1;
+        while(low < high){
+            int mid = low +((high - low) >> 1);
+            if(list.get(mid) <= pre){
+                low = mid + 1;
+            }else {
+                high = mid;
+            }
+        }
+        return list.get(high) > pre? list.get(high): -1;
     }
+
 }

@@ -12,7 +12,7 @@ public class LongestSubstringwithAtMostKDistinctCharacters340H {
      * </p>
      * Keypoints:
      * totally same as LongestSubstringwithAtMostTwoDistinctCharacters159H. just modify the judge from > 2 to > k
-     *
+     * map to store the lastest index of each char. keep a left index to indicate the one need to remove when map.size > k
      * </p>
      * TIME COMPLEXITY: O(n)
      * SPACE COMPLEXITY: O(n)

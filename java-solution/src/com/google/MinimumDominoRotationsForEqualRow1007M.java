@@ -10,9 +10,9 @@ public class MinimumDominoRotationsForEqualRow1007M {
      * </p>
      * Keypoints:
      *  if there are solution, no matter how we convert position, it must be A[0] or B[0],
-     *  so we suppose it is A[0] as the target, so A[i] or B[i] should be same as A[0]. And
-     *  if A[i] != A[0], we increase the rotateA, i.e rotateA++;
-     *  if B[i] != A[0] we increase rotateB,i.e rotateB++;
+     *  so we suppose it is A[0] as the target, when A[0]= A[i] || A[0]= B[i] , and
+     *      if A[i] != A[0], we increase the rotateA, i.e rotateA++; rotateA means we need to put B[i] to A[i], and A is the final same row,all A[0]
+     *      if B[i] != A[0] we increase rotateB,i.e rotateB++; rotateB means we need to put A[i] to B[i], and B is the final same row
      *  when finishing travelling, if A[0] works, no need to check B[0], just return Min(rotateA,rotateB);
      *  this is because if both A[0] and B[0] exists in all dominoes. let's say it is A[0]=2 and B[0]= 5,
      *  so elements in all index i is 2 and 5, when we travel the A[0], we has record the position of the position

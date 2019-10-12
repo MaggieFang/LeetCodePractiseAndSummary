@@ -70,7 +70,6 @@ public class IsSubsequence392M {
             }
         }
         return list.get(low) > prev? list.get(low) : -1;
-
     }
 
 
