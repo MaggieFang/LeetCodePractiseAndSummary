@@ -12,7 +12,7 @@ public class ShortestWaytoFormString1055M {
      * </p>
      * Keypoints:
      * we can use two pointer , one iterate src, another iterate tar.
-     * for each tar char, we move j until src[j] == tar[i], if j == src.length, ans++, j = 0 and recheck the cur target char
+     * for each char in target, we move j until src[j] == tar[i], if j == src.length, ans++, j = 0 and recheck the cur target char
      * in this solution, we greedy match as many chars from src to tar as possible which can lead mininum use of src.
      * and we can build a set to save all the char in src, if there exists a char from tar which not exists in set, return -1.
      * </p>

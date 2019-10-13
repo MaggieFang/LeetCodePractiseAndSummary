@@ -12,9 +12,9 @@ public class SpiralMatrix54M {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return new ArrayList<>();
         }
-        int sm = 0, sn = 0;
-        int m = matrix.length - 1;
-        int n = matrix[0].length - 1;
+        int sm = 0, sn = 0; // first row and column index unused
+        int m = matrix.length - 1; // last row index unused
+        int n = matrix[0].length - 1; //last column index unsed
         List<Integer> ans = new ArrayList<>();
         while (sm <= m && sn <= n) {
             // row: left to right;
@@ -32,7 +32,6 @@ public class SpiralMatrix54M {
                 while (i <= m) {
                     ans.add(matrix[i++][n]);
                 }
-
                 n--;
             }
 
@@ -45,6 +44,7 @@ public class SpiralMatrix54M {
                 m--;
             }
 
+            //column: down - top
             if (sn <= n) {
                 int i = m;
                 while (i >= sm) {

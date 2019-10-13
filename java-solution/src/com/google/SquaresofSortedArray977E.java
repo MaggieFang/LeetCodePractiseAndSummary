@@ -6,7 +6,7 @@ package com.google;
  **/
 public class SquaresofSortedArray977E {
 
-    //We can use two pointers to read the positive and negative parts of the array -
+    //We can use two pointers to read the positive and negative parts of the array
     // one pointer i in the positive direction,i++, and another j in the negative direction.j-- .
     public int[] sortedSquares(int[] A) {
         int n = A.length;
