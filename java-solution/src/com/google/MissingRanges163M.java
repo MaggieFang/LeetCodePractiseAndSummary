@@ -34,13 +34,16 @@ public class MissingRanges163M {
 
         // 2nd step
         for (int i = 0; i < nums.length - 1; i++) {
+            //考虑nums[0] MIN_VALUE情况
+          //  [-2147483648,-2147483648,0,2147483647,2147483647], -2147483648, 2147483647
             if (nums[i + 1] != nums[i] && nums[i + 1] > nums[i] + 1) {
                 result.add(formRange(nums[i] + 1, nums[i + 1] - 1));
             }
         }
 
-        // 3rd step
+        // 3rd step, 一定不会
         if (nums[nums.length - 1] < upper) {
+            //一定不会nums[lastIndex]是MAX_VALUE情况了
             result.add(formRange(nums[nums.length - 1] + 1, upper));
         }
         return result;

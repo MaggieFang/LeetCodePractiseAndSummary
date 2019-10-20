@@ -38,4 +38,20 @@ public class IsomorphicStrings205E {
         }
         return true;
     }
+
+    // A wrong solution. can not guarantee 1:1 mapping  e.g "ab","aa",
+//    public boolean isIsomorphic(String s, String t) {
+//        int[] map = new int[256];
+//        Arrays.fill(map,-1);
+//        for(int i = 0; i < s.length();i++){
+//            char c = s.charAt(i);
+//            char c2 = t.charAt(i);
+//            if(map[c] != -1 && map[c] != c2){
+//                return false;
+//            }
+//            map[c] = c2;
+//        }
+//        return true;
+//
+//    }
 }

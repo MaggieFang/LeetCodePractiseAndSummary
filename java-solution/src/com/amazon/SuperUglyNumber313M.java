@@ -9,10 +9,13 @@ import java.util.TreeSet;
 public class SuperUglyNumber313M {
     /**
      * Clarification:
-     *
+     * * same as UglyNumberII264M
      * </p>
      * Keypoints:
-     * same as UglyNumberII264M
+     * TreeSet. put 1 into it firstly, and pollFirst out. and use this min poll value multiply all the primes, and push to the treeset.
+     * after n-1 times pollFirst. the next pollFirst is what we want.
+     *
+     * we should use treeset instead of pq, since pq will have the problem of duplicate number in the queue.
      * </p>
      * TIME COMPLEXITY:
      * SPACE COMPLEXITY:

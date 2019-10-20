@@ -9,7 +9,7 @@ public class MedianofTwoSortedArrays4H {
      *
      * </p>
      * Keypoints:https://www.youtube.com/watch?time_continue=1&v=LPFhl65R7ww
-     * partitionX + partitionY = (x+y+1)/2
+     * partitionX + partitionY = (x+y+1)/2 ,
      *  ...Xi, Xi+1....
      *  .....Yj, Yj+1
      *  if Xi <= Yj+1 && Yj <= Xi+1 we found the middian. and if x+y is odd, then result is Max(Xi,Yj) , else is (Max(Xi,Yj) + min(Xi+1,Yj+1))/2.0

@@ -25,7 +25,7 @@ public class SplitArrayLargestSum410H {
      **/
     public int splitArray(int[] nums, int m) {
         int n = nums.length;
-        long sum = 0;
+        long sum = 0; //严谨!!
         int max = 0;
         for (int num : nums) {
             sum += num;
@@ -52,7 +52,7 @@ public class SplitArrayLargestSum410H {
         int cur = 0;
         for (int num : nums) {
             cur += num;
-            if (cur > target) {
+            if (cur > target) { // 不用考虑==的情况，在下一iterate里也会被覆盖
                 cur = num;
                 count++;
                 if (count >= m) {

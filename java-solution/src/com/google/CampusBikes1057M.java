@@ -10,6 +10,8 @@ import java.util.PriorityQueue;
 public class CampusBikes1057M {
     /**
      * Clarification:
+     * 1. N workers, M bikes. Doest N <= M? guarantee each worker can get a bike? Yes.
+     *
      *  this is return a array, try to find the min for each one. a greedy. use priorityQueue.
      * </p>
      * Keypoints:
@@ -36,6 +38,7 @@ public class CampusBikes1057M {
         });
 
         int n = workers.length;
+        //这里需要m*n的距离都先算，丢到pq；不是找到一个work先处理一个worker，那样只能局部最优
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < bikes.length; j++) {
                 Info info = new Info(i, j, Math.abs(workers[i][0] - bikes[j][0]) + Math.abs(workers[i][1] - bikes[j][1]));

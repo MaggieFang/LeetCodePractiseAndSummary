@@ -14,11 +14,11 @@ public class CountCompleteTreeNodes222M {
      * KEYPOINTS:
      * <p>
      * define heigh(level) fuction,0 when single node. we go left to get it. get h
-     * and than check the heigh of right child, to see whether right sub height +  root equals to the whole height?
-     * means if the right sub height == h -1
-     * if yes,so the last node is in the right sub,so the left is full.
+     * and than check the heigh of right child hR, if hR +  1 == h, it means the root's left part is full
      * so  left nodes numbers is 2^(h) - 1, totoal =  2^(h) - 1 + 1(root) + count(rightchild)
      * if not. so the right child is full, 2^(h-1) -1 + 1 + count(left)
+     *
+     *  noticed that 2^n we can use 1 << n
      * </p>
      * PSEUDOCODE:
      * <pre>
@@ -33,14 +33,19 @@ public class CountCompleteTreeNodes222M {
      **/
     public int countNodes(TreeNode root) {
         int h = getHeight(root);
-        return h == -1 ? 0 : getHeight(root.right) == h - 1 ?
-                (1 << h) + countNodes(root.right) : (1 << (h - 1)) + countNodes(root.left);
+        if (h == -1) return 0;
+        int rightH = getHeight(root.right);
+        if (rightH + 1 == h) {
+            // left is full;
+            return (1 << h) + countNodes(root.right);
+        } else {
+            return (1 << (h - 1)) + countNodes(root.left);
+        }
     }
 
-    public int getHeight(TreeNode root) {
+    private int getHeight(TreeNode root) {
         return root == null ? -1 : 1 + getHeight(root.left);
     }
-
 
 
     public int countNodesIterate(TreeNode root) {

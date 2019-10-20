@@ -12,8 +12,9 @@ public class FlipGame293E {
      *
      * </p>
      * Keypoints:
-     * from the beginning, find the next "++",use indexOf("++",i);
-     * then you know where the next "++" to convert into '--' and then add it to result
+     * from the beginning, find the next "++",use indexOf("++",i); get the index of it. and we can construct the new string
+     * with the leftsub+"--"+rightsub, update i to index+1 to continue find the next one.
+     * 如果只是count的话可以用ExpressiveWords809M
      * </p>
      * TIME COMPLEXITY: O(n^2)
      * SPACE COMPLEXITY: O(1) if the result  List<string> is not included

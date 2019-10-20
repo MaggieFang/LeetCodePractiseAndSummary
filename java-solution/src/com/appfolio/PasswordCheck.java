@@ -8,10 +8,25 @@ import java.util.regex.Pattern;
  **/
 public class PasswordCheck {
 
+    /**
+     * Clarification:
+     *  Regular expression is based on finite state machine.
+     *  Running a DFA-compiled regular expression against a string is indeed O(n),
+     *  but can require up to O(2^m) construction time/space (where m = regular expression size).
+     *  but please note, when performing a partial match on a string, you need roughly m*n steps,
+     *  because if the regex engine can't match the pattern in the first character, it must try again starting with a 2nd, 3rd character
+     *  and so on until it finds a matching sequence
+     * </p>
+     * Keypoints:
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
     public static boolean onlyLetters(String str) {
 
         Pattern letter = Pattern.compile("[a-zA-Z]+"); //"[a-zA-Z]" matches only one character. To match multiple characters, use "[a-zA-Z]+".
-        return letter.matcher(str).matches();
+        return letter.matcher(str).matches();//matches only succeeds if it matches the entire string
 //        return str != null && !str.trim().isEmpty() && str.trim().matches("^[a-zA-Z]*$");
     }
 
@@ -23,18 +38,30 @@ public class PasswordCheck {
         Matcher hasLetter = letter.matcher(password);
         Matcher hasDigit = digital.matcher(password);
         Matcher hasSpecial = special.matcher(password);
-        return hasLetter.find() && hasDigit.find() && hasSpecial.find();
+        return hasLetter.find() && hasDigit.find() && hasSpecial.find();//Attempts to find the next subsequence of the input sequence that matches the pattern.
     }
 
-    public static boolean notAllDigitalLetter(String str){
+    public static boolean notAllDigitalLetter(String str) {
         Pattern pattern = Pattern.compile("[^a-zA-Z0-9]");
         return pattern.matcher(str).find();
     }
 
+    //https://www.1point3acres.com/bbs/interview/coursera-software-engineer-520816.html
+    public static boolean matched(String s, String p){
+        Pattern pattern = Pattern.compile(p);
+        return pattern.matcher(s).find();
+    }
 
 
     public static void main(String[] args) {
-        System.out.println('a'-'A');
+        System.out.println(matched("oa","[a-z]*"));
+        System.out.println(matched("hello","ll"));
+        System.out.println(matched("hello","e"));
+        System.out.println(matched("hello","eo"));
+        System.out.println(matched("hello","e."));
+
+
+        System.out.println('a' - 'A');
         System.out.println(notAllDigitalLetter("12gvs"));
         System.out.println(notAllDigitalLetter(")&^$#"));
         System.out.println(notAllDigitalLetter("gvs#"));

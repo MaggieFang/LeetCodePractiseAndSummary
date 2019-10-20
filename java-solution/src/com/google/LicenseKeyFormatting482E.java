@@ -19,6 +19,7 @@ public class LicenseKeyFormatting482E {
                 if(sb.length() % (K+1) == K){//!!! insert "-" before insert new character.
                     sb.insert(0,'-');
                 }
+                // take care, it is not else here.
                 sb.insert(0,  c);
             }
         }

@@ -21,6 +21,7 @@ public class NumberofIslandsII305H {
      * one case is it can be included in a existing one. another case it may decrease the count around it because it connect two prior distinct islands
      * e.g  [1  new  1] the new one in pos{0,1} can connect pos{0,0}, pos{0,2} at the same time,
      * so we can use a map,key is the addland position and value is island_id(indicate which island the position belong to) for the second case.
+     * (其实就是union find的思想，只是root用island_id)
      * when a new addland,we check whether its four neighbour are in the map. if so, find their ids(put in a set for unique )
      * and the ids in the set should change to the same id.
      * then you can keep the keys(postions) or iterate the map to find the island_id in the map and change them to the same id
@@ -39,7 +40,7 @@ public class NumberofIslandsII305H {
     public List<Integer> numIslands(int m, int n, int[][] positions) {
         int[][] dir = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}, {0, 0}};//add {0,0} is because the new tests includes duplicates.pos={{0,0},{0,1},{1,2},{1,2}}
         HashMap<Integer, Integer> map = new HashMap<>();
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();//放结果的
         int identifier = 0;
         for (int[] pos : positions) {
             HashSet<Integer> values = new HashSet<>();

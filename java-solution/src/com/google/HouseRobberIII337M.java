@@ -12,7 +12,12 @@ public class HouseRobberIII337M {
 
     /**
      * Clarification:
-     *
+     * 并不是说隔着层就是最好的
+     *        2
+     *      1   1
+     *   1  1  1   1
+     * 18
+     * 选2+18最好
      * </p>
      * Keypoints:
      * the problem exhibits the feature of "optimal substructure": if we want to rob maximum amount of money from current binary tree
@@ -21,7 +26,6 @@ public class HouseRobberIII337M {
      * how to compute rob(root): two cases: 1) root not rob, then result is rob(root.left)+ rob(root.right)
      * (2) root robbed. so root.left and root.right should not be robbed. then the result is
      * root.val+ rob(root.left.left)+ rob(root.left.right)+ rob(root.rigth.left)+rob(root.right.right), of course,need to check root.left/right null or not/
-     * <p>
      * <p>
      * futher improvement, we can store the result of the node rob or not in a res int[2],  res[0] means the node not rob. and res[1] means the node are robbed.
      * so res[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]); and res[1] = left[0] + right[0] + node.val;

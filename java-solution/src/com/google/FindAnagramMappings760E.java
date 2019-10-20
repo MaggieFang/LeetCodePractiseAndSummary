@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Talk is Cheap,Show me the Code.
  **/
 public class FindAnagramMappings760E {
-    //  can reuse the element or not use each of them
+    //  can reuse the element or not use each of them. don't forget to check this with interviewer.
     // A: [12,12,13]  B: [13,12,13]
     public int[] anagramMappings(int[] A, int[] B) {
         HashMap<Integer,Integer> map = new HashMap<>();

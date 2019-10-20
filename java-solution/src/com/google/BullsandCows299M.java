@@ -5,6 +5,19 @@ package com.google;
  * Talk is Cheap,Show me the Code.
  **/
 public class BullsandCows299M {
+    /**
+     * Clarification:
+     * iterate over the numbers in secret and in guess and count all bulls right away.
+     * for cows, we count the numbers of each character in s and g respectively, the min of the count is the cows for this character.
+     * since all them are '0'~'9',we can use int[10] to count them.
+     * </p>
+     * Keypoints:
+     *
+     * </p>
+     * TIME COMPLEXITY:
+     * SPACE COMPLEXITY:
+     * </p>
+     **/
     public String getHint(String s, String g) {
         int bull = 0;
         int cow = 0;
@@ -27,11 +40,12 @@ public class BullsandCows299M {
         }
         return bull + "A" + cow + "B";
     }
-  /**
-   * The idea is to iterate over the numbers in secret and in guess and count all bulls right away.
-   * For cows maintain an array that stores count of the number appearances in secret and in guess.
-   * Increment cows when either number from secret was already seen in guest or vice versa.
-   * **/
+
+    /**
+     * The idea is to iterate over the numbers in secret and in guess and count all bulls right away.
+     * For cows maintain an array that stores count of the number appearances in secret and in guess.
+     * Increment cows when either number from secret was already seen in guest or vice versa.
+     **/
     public String getHint2(String s, String g) {
         int bull = 0;
         int cow = 0;

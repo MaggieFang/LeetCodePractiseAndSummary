@@ -1,6 +1,5 @@
 package com.google;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -10,6 +9,10 @@ public class BraceExpansion1087M {
     /**
      * Clarification:
      * backtracking
+     * <p>
+     * case 1: "abcd", so need to S.indexOf('{')
+     * case 2: {a,b}
+     * case 3: ..
      * </p>
      * Keypoints:
      *
@@ -20,8 +23,9 @@ public class BraceExpansion1087M {
      **/
     public String[] expand(String S) {
         if (S == null) return new String[]{};
-        if (S.indexOf('{') < 0) return new String[]{S}; // e.g abacd
+        if (S.indexOf('{') < 0) return new String[]{S}; //!!! take care. e.g abacd
 
+        //also can use S.split("\\{|\\}"); to split. but need the eliminate the empty "" result and the "," in each string
         List<char[]> list = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < S.length(); i++) {
