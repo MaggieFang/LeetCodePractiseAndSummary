@@ -1,4 +1,4 @@
-package com.easy.stack;
+package com.wish;
 
 import java.util.ArrayList;
 import java.util.Stack;
@@ -13,8 +13,8 @@ public class MinStack155 {
      *
      * </p>
      * Keypoints:
-     * can use same method with MaxStack716E
-     *  use two stack, one is a general one to serve for peek,pop, s1. another one is to keep the min,s2
+     * can use same method with MaxStack716E but it is easier since needn't implement popMin
+     * use two stack, one is a general one to serve for peek,pop, s1. another one is to keep the min,s2
      * in push(x), we push it into s1, and if  s2.peek() >= x,we push it into s2, too.
      * in pop(), we pop from s1, and if it == s2.peek(), we pop s2,too,
      * in peekmax, return s2.peek()

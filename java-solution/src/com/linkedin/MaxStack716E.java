@@ -12,10 +12,12 @@ public class MaxStack716E {
      * </p>
      * Keypoints:
      * we can use two stack, one is a general one to serve for peek,pop, s1. another one is to keep the max,s2
-     * in push(x), we push it into s1, and if x >= s2.peek(),we push it into s2, too.
-     * in pop(), we pop from s1, and if it == s2.peek(), we pop s2,too,
-     * in peekmax, return s2.peek()
-     * int popMax, we pop s2, and we need to delete it from s1, so we need an tmp stack to store the tmp element pop from s1.
+     * 1. push(x), we push it into s1, and if x >= s2.peek(), it means we meet some new bigger number, so push it into s2, too.
+     * 2. pop(), we pop from s1, and if it == s2.peek(), we pop s2,too.
+     *    Are there cases that the pop element is in s1 and in s2 but not s2 top? No.since when we push to s1, and if it is larger than top in s2. we've push to s2 too.
+     * 3. top(): just peek s1.
+     * 4. peekMax(): just peek s2.
+     * 5. popMax, we pop s2, and we need to delete it from s1, so we need an tmp stack to store the tmp element pop from s1.
      * when we pop the popped element in s1, then we push the tmp elements into s1 again, but here, we need to call push(x) not just s1.push(x)
      * since we have pop the maximun from s2, there may be some element to be the new max.
      * e.g push(5), push(3) and popMax. there is a [3] in tmp, when we push it back to s1. it also need to be in s2.
