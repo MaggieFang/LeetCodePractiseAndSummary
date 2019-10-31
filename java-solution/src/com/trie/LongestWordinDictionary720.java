@@ -54,7 +54,7 @@ public class LongestWordinDictionary720 {
     }
 
 
-    class Trie {
+   public class Trie {
         public TrieNode root;
 
         public Trie() {
@@ -77,7 +77,7 @@ public class LongestWordinDictionary720 {
 
     }
 
-    class TrieNode {
+   public class TrieNode {
         public TrieNode[] children = new TrieNode[SIZE];
         // public boolean endOfWord;
         public String word;
