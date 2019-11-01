@@ -1,4 +1,4 @@
-package com.fb;
+package com.amazon;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -27,7 +27,6 @@ public class LRUCache146HLinkedMap {
 
     public void put(int key, int value) {
         map.put(key,value);
-
 
     }
 
