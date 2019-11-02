@@ -35,6 +35,7 @@ public class FlattenNestedListIterator341M {
             for (int i = nl.size() - 1; i >= 0; i--) { // push element from right to left into stack
                 stack.push(nl.get(i));
             }
+            remove();
         }
 
         @Override
