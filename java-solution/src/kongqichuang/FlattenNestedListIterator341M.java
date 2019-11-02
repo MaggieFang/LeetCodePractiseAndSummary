@@ -1,4 +1,4 @@
-package com.linkedin;
+package kongqichuang;
 
 import com.basic.NestedInteger;
 
