@@ -1,9 +1,6 @@
 package kongqichuang;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-11-02
@@ -49,6 +46,11 @@ public class GroupId {
                 ite = input.iterator();
             }
         }
-
+        return res;
     }
+    public static void main(String[] args){
+     String s = "";
+        System.out.println(s.substring(0));
+    }
+
 }
