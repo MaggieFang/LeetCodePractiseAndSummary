@@ -11,6 +11,7 @@ public class FlattenWithRemove {
     public class NestedIterator implements Iterator<Integer> {
         Iterator<List<Integer>> rowIte;
         Iterator<Integer> colIte;
+
         public NestedIterator(List<List<Integer>> vec2d) {
             rowIte = vec2d.iterator();
             colIte = Collections.emptyIterator();
@@ -18,7 +19,7 @@ public class FlattenWithRemove {
 
         @Override
         public boolean hasNext() {
-            while (rowIte.hasNext() && (colIte == null || !colIte.hasNext())){
+            while (rowIte.hasNext() && (colIte == null || !colIte.hasNext())) {
                 colIte = rowIte.next().iterator();
             }
             return colIte != null && colIte.hasNext();
@@ -26,18 +27,15 @@ public class FlattenWithRemove {
 
         @Override
         public Integer next() {
-            if(hasNext()){
-                colIte.next();
-            }
-            return null;
+            return colIte.next();
         }
 
         @Override
         public void remove() {
-            while (rowIte.hasNext() && (colIte == null || !colIte.hasNext())){
+            while (rowIte.hasNext() && (colIte == null || !colIte.hasNext())) {
                 colIte = rowIte.next().iterator();
             }
-            if(colIte != null){
+            if (colIte != null) {
                 colIte.remove();
             }
         }
