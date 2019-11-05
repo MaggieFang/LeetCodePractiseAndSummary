@@ -1,6 +1,4 @@
-package com.oscar;
-
-import java.util.regex.Pattern;
+package kongqichuang;
 
 /**
  * Author by Maggie Fang. Email menogenfong@gmail.com. Date on 1/21/19
@@ -26,10 +24,11 @@ public class WildcardMatching44H {
         int plen = p.length();
         while (i < slen) {
             char c = s.charAt(i);
-            if (j < plen && (p.charAt(j) == c || p.charAt(j) == '?')) { // equas or ?, move forward both
+            char c2 = ' ';
+            if (j < plen && ((c2 = p.charAt(j)) == c || c2 == '?')) { // equas or ?, move forward both
                 i++;
                 j++;
-            } else if (j < plen && p.charAt(j) == '*') {
+            } else if (j < plen && c2 == '*') {
                 // ignore jth i.e "*" , but we need to save this position, we may need to do the not-ignore latter.
                 starSave = j;
                 iSave = i;
