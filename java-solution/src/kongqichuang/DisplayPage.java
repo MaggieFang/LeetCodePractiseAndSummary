@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Author by Maggie Fang <maggie2fang@gmail.com>. Date on 2019-11-02
  **/
-public class GroupId {
+public class DisplayPage {
     /**
      * Clarification:
 
