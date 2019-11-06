@@ -14,7 +14,7 @@ public class EventCounter {
      * Keypoints:
      * Actually, I don't need to care about the count in 1 sec!!! so don't use the queue for count!!!
      * just push the timestamp into queue when the evertOccur called.
-     * for getCount, look from the beginning. remove the elements that out of the range of in the last n secs.
+     * for getCount, just dequeue the elements that out of the range in the last n secs.
      * </p>
      * TIME COMPLEXITY:
      * SPACE COMPLEXITY:
