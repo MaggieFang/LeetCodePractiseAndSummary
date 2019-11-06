@@ -1,4 +1,4 @@
-package com.intuit;
+package com.array;
 
 import com.basicStructure.Interval;
 
