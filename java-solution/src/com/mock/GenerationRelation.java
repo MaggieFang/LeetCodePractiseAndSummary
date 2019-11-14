@@ -22,6 +22,7 @@ public class GenerationRelation {
 
         // map child to its direct parents. for easy access later
         HashMap<String, List<String>> map = new HashMap<>();
+
         for (String[] data : dataset) {
             List<String> parent = map.getOrDefault(data[1], new ArrayList<>());
             parent.add(data[0]);
